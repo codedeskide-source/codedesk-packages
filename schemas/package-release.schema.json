@@ -1,0 +1,95 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://codedesk.dev/schemas/package-release.schema.json",
+
+    "title": "Code Desk Package Release",
+    "description": "Describes one downloadable version of a Code Desk package.",
+    "type": "object",
+    "additionalProperties": false,
+
+    "required": [
+        "formatVersion",
+        "packageId",
+        "version",
+        "releaseDate",
+        "status",
+        "minimumCodeDeskVersion",
+        "download",
+        "manifest",
+        "sha256",
+        "size",
+        "notes"
+    ],
+
+    "properties": {
+        "formatVersion": {
+            "type": "integer",
+            "minimum": 1
+        },
+
+        "packageId": {
+            "type": "string",
+            "minLength": 1
+        },
+
+        "version": {
+            "type": "string",
+            "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[A-Za-z0-9.-]+)?$"
+        },
+
+        "releaseDate": {
+            "type": "string",
+            "format": "date"
+        },
+
+        "status": {
+            "type": "string",
+            "enum": [
+                "stable",
+                "beta",
+                "development",
+                "deprecated",
+                "withdrawn"
+            ]
+        },
+
+        "minimumCodeDeskVersion": {
+            "type": "string"
+        },
+
+        "maximumCodeDeskVersion": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+
+        "download": {
+            "type": "string",
+            "minLength": 1
+        },
+
+        "manifest": {
+            "type": "string",
+            "minLength": 1
+        },
+
+        "sha256": {
+            "type": "string",
+            "pattern": "^$|^[A-Fa-f0-9]{64}$"
+        },
+
+        "size": {
+            "type": "integer",
+            "minimum": 0
+        },
+
+        "notes": {
+            "type": "array",
+
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}
