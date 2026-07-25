@@ -1,0 +1,113 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+    "title": "Code Desk Package Manifest",
+
+    "description": "Describes an installable Code Desk package.",
+
+    "type": "object",
+
+    "required": [
+        "id",
+        "name",
+        "version",
+        "type",
+        "publisher",
+        "minimumCodeDeskVersion",
+        "files"
+    ],
+
+    "properties": {
+
+        "id": {
+            "type": "string"
+        },
+
+        "name": {
+            "type": "string"
+        },
+
+        "displayName": {
+            "type": "string"
+        },
+
+        "version": {
+            "type": "string"
+        },
+
+        "type": {
+            "type": "string"
+        },
+
+        "publisher": {
+            "type": "string"
+        },
+
+        "description": {
+            "type": "string"
+        },
+
+        "homepage": {
+            "type": "string"
+        },
+
+        "license": {
+            "type": "string"
+        },
+
+        "minimumCodeDeskVersion": {
+            "type": "string"
+        },
+
+        "dependencies": {
+
+            "type": "array",
+
+            "items": {
+
+                "type": "object",
+
+                "properties": {
+
+                    "id": {
+                        "type": "string"
+                    },
+
+                    "minimumVersion": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+
+        "files": {
+
+            "type": "array",
+
+            "items": {
+
+                "type": "object",
+
+                "required": [
+                    "source",
+                    "destination"
+                ],
+
+                "properties": {
+
+                    "source": {
+                        "type": "string"
+                    },
+
+                    "destination": {
+                        "type": "string"
+                    },
+
+                    "sha256": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
