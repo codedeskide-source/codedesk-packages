@@ -1,0 +1,94 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://codedesk.dev/schemas/package-install.schema.json",
+
+    "title": "Code Desk Package Installation Instructions",
+    "description": "Defines how Code Desk installs a package.",
+    "type": "object",
+    "additionalProperties": false,
+
+    "required": [
+        "formatVersion",
+        "installMode",
+        "overwriteExisting",
+        "verifyChecksums",
+        "createDirectories",
+        "rollbackOnFailure",
+        "requiresRestart",
+        "postInstallTasks"
+    ],
+
+    "properties": {
+        "formatVersion": {
+            "type": "integer",
+            "minimum": 1
+        },
+
+        "installMode": {
+            "type": "string",
+            "enum": [
+                "copy",
+                "merge",
+                "extract"
+            ]
+        },
+
+        "overwriteExisting": {
+            "type": "boolean"
+        },
+
+        "verifyChecksums": {
+            "type": "boolean"
+        },
+
+        "createDirectories": {
+            "type": "boolean"
+        },
+
+        "rollbackOnFailure": {
+            "type": "boolean"
+        },
+
+        "requiresRestart": {
+            "type": "boolean"
+        },
+
+        "postInstallTasks": {
+            "type": "array",
+
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+
+                "required": [
+                    "task"
+                ],
+
+                "properties": {
+                    "task": {
+                        "type": "string",
+                        "enum": [
+                            "reload-languages",
+                            "reload-autocomplete",
+                            "reload-syntax",
+                            "reload-themes",
+                            "reload-templates",
+                            "reload-compilers",
+                            "reload-plugins",
+                            "refresh-package-index"
+                        ]
+                    },
+
+                    "required": {
+                        "type": "boolean",
+                        "default": true
+                    },
+
+                    "arguments": {
+                        "type": "object"
+                    }
+                }
+            }
+        }
+    }
+}
