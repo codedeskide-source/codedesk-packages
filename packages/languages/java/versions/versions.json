@@ -1,17 +1,23 @@
 {
+    "$schema": "../../../../schemas/package-versions.schema.json",
+
+    "formatVersion": 1,
+
     "packageId": "codedesk.language.java",
 
     "latestStable": "1.0.0",
 
-    "latestBeta": "",
+    "latestBeta": null,
 
-    "latestDevelopment": "",
+    "latestDevelopment": null,
 
     "versions": [
         {
             "version": "1.0.0",
             "status": "stable",
-            "folder": "1.0.0"
+            "folder": "1.0.0",
+            "releaseFile": "1.0.0/package-release.json",
+            "published": "2026-07-25"
         }
     ]
 }
