@@ -1,0 +1,40 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+    "title": "Package Permissions",
+
+    "type": "object",
+
+    "additionalProperties": false,
+
+    "properties": {
+
+        "filesystem": {
+            "type": "boolean"
+        },
+
+        "network": {
+            "type": "boolean"
+        },
+
+        "terminal": {
+            "type": "boolean"
+        },
+
+        "executeProcesses": {
+            "type": "boolean"
+        },
+
+        "modifyProjects": {
+            "type": "boolean"
+        },
+
+        "modifyIDE": {
+            "type": "boolean"
+        },
+
+        "backgroundServices": {
+            "type": "boolean"
+        }
+    }
+}
