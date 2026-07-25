@@ -1,0 +1,9 @@
+{
+    "removeInstalledFiles": true,
+
+    "removeEmptyDirectories": true,
+
+    "removeConfiguration": false,
+
+    "rollbackIfFailure": true
+}
