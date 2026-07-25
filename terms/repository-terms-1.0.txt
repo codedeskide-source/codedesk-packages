@@ -1,9 +1,7 @@
-CODE DESK OFFICIAL PACKAGE REPOSITORY TERMS — VERSION 1.0
+CODE DESK OFFICIAL PACKAGE REPOSITORY TERMS 1.0
 
-The official repository provides Code Desk package metadata and downloadable
-package archives. Java, Python, HTML, and CSS are built into the main Code Desk
-application. Repository entries for those languages are used only for updates,
-repair, rollback, and access to older compatible versions.
+Packages are downloaded and installed only after Code Desk validates the
+catalog, manifest, archive size, SHA-256 checksum, compatibility, license,
+permissions, dependencies, and installation destination.
 
-Packages must be validated before activation. A failed installation must not
-leave a partial active package.
+This repository set targets Code Desk 0.1.3 testing.

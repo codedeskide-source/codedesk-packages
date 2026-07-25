@@ -1,8 +1,7 @@
-CODE DESK PACKAGE LICENSE — VERSION 1.0
+CODE DESK PACKAGE LICENSE 1.0
 
-This test package is distributed for use with Code Desk.
-It may be downloaded, installed, repaired, updated, rolled back, disabled,
-and removed through Code Desk's package-management system.
+Copyright (c) 2026 Code Desk.
 
-This test license does not grant permission to impersonate the official
-Code Desk repository or redistribute modified packages as official releases.
+This package content is supplied for use with Code Desk. Redistribution of
+unchanged package archives is permitted when this notice and license remain
+included. No warranty is provided.

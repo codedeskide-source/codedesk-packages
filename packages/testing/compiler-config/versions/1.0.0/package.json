@@ -1,11 +1,11 @@
 {
   "formatVersion": 1,
-  "id": "codedesk-language-java",
-  "name": "Java Language Support",
+  "id": "codedesk-qa-compiler-config",
+  "name": "QA Compiler Configuration",
   "publisher": "Code Desk",
   "version": "1.0.0",
-  "description": "Java language metadata, templates, autocomplete data, and JDK compiler configuration.",
-  "category": "language",
+  "description": "Compiler-discovery test definitions for Java and Python without bundling external compilers.",
+  "category": "toolchain",
   "required": false,
   "compatibility": {
     "minimumCodeDeskVersion": "0.1.3",
@@ -23,14 +23,14 @@
     ]
   },
   "download": {
-    "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/java/versions/1.0.0/codedesk-language-java-1.0.0.zip",
-    "fileName": "codedesk-language-java-1.0.0.zip",
-    "sizeBytes": 2218,
-    "sha256": "adf653e748272efcb76c18ba3dbf7ede033be925e98a55377a4a07fa4dbf601f",
+    "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/testing/compiler-config/versions/1.0.0/codedesk-qa-compiler-config-1.0.0.zip",
+    "fileName": "codedesk-qa-compiler-config-1.0.0.zip",
+    "sizeBytes": 1418,
+    "sha256": "59420fb4bad01e3344b78261d665cff7c1260949ec3c6fe4d4fa13ad6cb038d1",
     "timeoutSeconds": 300
   },
   "installation": {
-    "destination": "packages/languages/java",
+    "destination": "packages/plugins/qa-compiler-config",
     "requiresRestart": true,
     "canRepair": true,
     "canUpdate": true,
@@ -41,7 +41,7 @@
   "permissions": [
     {
       "id": "write-package-files",
-      "description": "Install files under packages/languages/java."
+      "description": "Install files under packages/plugins/qa-compiler-config."
     }
   ],
   "license": {

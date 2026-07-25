@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Code Desk Package Manifest 1.0",
+  "title": "Code Desk Package Manifest",
   "type": "object",
   "required": [
     "formatVersion",
@@ -13,49 +13,5 @@
     "download",
     "installation",
     "license"
-  ],
-  "properties": {
-    "formatVersion": {
-      "const": 1
-    },
-    "id": {
-      "type": "string"
-    },
-    "name": {
-      "type": "string"
-    },
-    "publisher": {
-      "type": "string"
-    },
-    "version": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "category": {
-      "type": "string"
-    },
-    "required": {
-      "type": "boolean"
-    },
-    "compatibility": {
-      "type": "object"
-    },
-    "download": {
-      "type": "object"
-    },
-    "installation": {
-      "type": "object"
-    },
-    "dependencies": {
-      "type": "array"
-    },
-    "permissions": {
-      "type": "array"
-    },
-    "license": {
-      "type": "object"
-    }
-  }
+  ]
 }

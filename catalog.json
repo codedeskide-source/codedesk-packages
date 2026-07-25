@@ -3,28 +3,131 @@
   "repositoryId": "codedesk-official",
   "repositoryName": "Official Code Desk Package Repository",
   "catalogVersion": "1.0.0",
-  "generatedAt": "2026-07-25T18:00:00Z",
+  "generatedAt": "2026-07-25T20:30:42Z",
   "minimumCodeDeskVersion": "0.1.3",
   "termsUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/terms/repository-terms-1.0.txt",
   "packages": [
     {
-      "id": "codedesk.language.java",
+      "id": "codedesk-language-java",
       "name": "Java Language Support",
-      "description": "Repository update and recovery package for the Java support built into Code Desk.",
+      "description": "Java language metadata, templates, autocomplete data, and JDK compiler configuration.",
       "category": "language",
       "version": "1.0.0",
       "required": false,
       "securityUpdate": false,
-      "manifestUrl": "packages/languages/java/package.json",
+      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/java/versions/1.0.0/package.json",
       "languageIds": [
         "java"
       ],
       "tags": [
         "java",
-        "jdk17",
-        "language",
+        "jdk",
+        "javac",
         "compiler",
-        "built-in-update"
+        "templates",
+        "autocomplete"
+      ]
+    },
+    {
+      "id": "codedesk-language-python",
+      "name": "Python Language Support",
+      "description": "Python language metadata, templates, autocomplete data, and interpreter configuration.",
+      "category": "language",
+      "version": "1.0.0",
+      "required": false,
+      "securityUpdate": false,
+      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/python/versions/1.0.0/package.json",
+      "languageIds": [
+        "python"
+      ],
+      "tags": [
+        "python",
+        "interpreter",
+        "compiler",
+        "templates",
+        "autocomplete"
+      ]
+    },
+    {
+      "id": "codedesk-language-html",
+      "name": "HTML Language Support",
+      "description": "HTML language metadata, starter templates, snippets, and browser preview configuration.",
+      "category": "language",
+      "version": "1.0.0",
+      "required": false,
+      "securityUpdate": false,
+      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/html/versions/1.0.0/package.json",
+      "languageIds": [
+        "html"
+      ],
+      "tags": [
+        "html",
+        "web",
+        "preview",
+        "templates",
+        "snippets"
+      ]
+    },
+    {
+      "id": "codedesk-language-css",
+      "name": "CSS Language Support",
+      "description": "CSS language metadata, starter templates, snippets, and formatting preferences.",
+      "category": "language",
+      "version": "1.0.0",
+      "required": false,
+      "securityUpdate": false,
+      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/css/versions/1.0.0/package.json",
+      "languageIds": [
+        "css"
+      ],
+      "tags": [
+        "css",
+        "web",
+        "templates",
+        "snippets",
+        "formatter"
+      ]
+    },
+    {
+      "id": "codedesk-qa-install-marker",
+      "name": "QA Install and Uninstall Marker",
+      "description": "A harmless package used to verify install, disable, enable, repair, uninstall, and reinstall operations.",
+      "category": "other",
+      "version": "1.0.0",
+      "required": false,
+      "securityUpdate": false,
+      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/testing/install-marker/versions/1.0.0/package.json",
+      "languageIds": [
+        "mixed"
+      ],
+      "tags": [
+        "qa",
+        "install",
+        "uninstall",
+        "repair",
+        "disable",
+        "enable"
+      ]
+    },
+    {
+      "id": "codedesk-qa-compiler-config",
+      "name": "QA Compiler Configuration",
+      "description": "Compiler-discovery test definitions for Java and Python without bundling external compilers.",
+      "category": "toolchain",
+      "version": "1.0.0",
+      "required": false,
+      "securityUpdate": false,
+      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/testing/compiler-config/versions/1.0.0/package.json",
+      "languageIds": [
+        "java",
+        "python"
+      ],
+      "tags": [
+        "qa",
+        "compiler",
+        "javac",
+        "python",
+        "toolchain"
       ]
     }
   ]

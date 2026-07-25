@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Code Desk Repository Catalog 1.0",
+  "title": "Code Desk Repository Catalog",
   "type": "object",
   "required": [
     "formatVersion",
@@ -10,32 +10,5 @@
     "generatedAt",
     "minimumCodeDeskVersion",
     "packages"
-  ],
-  "properties": {
-    "formatVersion": {
-      "const": 1
-    },
-    "repositoryId": {
-      "type": "string"
-    },
-    "repositoryName": {
-      "type": "string"
-    },
-    "catalogVersion": {
-      "type": "string"
-    },
-    "generatedAt": {
-      "type": "string",
-      "format": "date-time"
-    },
-    "minimumCodeDeskVersion": {
-      "type": "string"
-    },
-    "termsUrl": {
-      "type": "string"
-    },
-    "packages": {
-      "type": "array"
-    }
-  }
+  ]
 }

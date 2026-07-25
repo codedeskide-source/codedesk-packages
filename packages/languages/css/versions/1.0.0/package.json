@@ -1,10 +1,10 @@
 {
   "formatVersion": 1,
-  "id": "codedesk-language-java",
-  "name": "Java Language Support",
+  "id": "codedesk-language-css",
+  "name": "CSS Language Support",
   "publisher": "Code Desk",
   "version": "1.0.0",
-  "description": "Java language metadata, templates, autocomplete data, and JDK compiler configuration.",
+  "description": "CSS language metadata, starter templates, snippets, and formatting preferences.",
   "category": "language",
   "required": false,
   "compatibility": {
@@ -23,14 +23,14 @@
     ]
   },
   "download": {
-    "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/java/versions/1.0.0/codedesk-language-java-1.0.0.zip",
-    "fileName": "codedesk-language-java-1.0.0.zip",
-    "sizeBytes": 2218,
-    "sha256": "adf653e748272efcb76c18ba3dbf7ede033be925e98a55377a4a07fa4dbf601f",
+    "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/css/versions/1.0.0/codedesk-language-css-1.0.0.zip",
+    "fileName": "codedesk-language-css-1.0.0.zip",
+    "sizeBytes": 1790,
+    "sha256": "ec4a9d62477103fa040293467dce2a0710f8980e368290e84e043529dfd51836",
     "timeoutSeconds": 300
   },
   "installation": {
-    "destination": "packages/languages/java",
+    "destination": "packages/languages/css",
     "requiresRestart": true,
     "canRepair": true,
     "canUpdate": true,
@@ -41,7 +41,7 @@
   "permissions": [
     {
       "id": "write-package-files",
-      "description": "Install files under packages/languages/java."
+      "description": "Install files under packages/languages/css."
     }
   ],
   "license": {

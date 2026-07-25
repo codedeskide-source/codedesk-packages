@@ -1,17 +1,8 @@
 {
   "formatVersion": 1,
   "repositoryId": "codedesk-official",
-  "repositoryName": "Official Code Desk Package Repository",
-  "repositoryType": "official",
-  "catalogPath": "catalog.json",
-  "minimumCodeDeskVersion": "0.1.3",
-  "packageManifestFormatVersion": 1,
-  "catalogFormatVersion": 1,
-  "builtInLanguages": [
-    "java",
-    "python",
-    "html",
-    "css"
-  ],
-  "repositoryLanguagePolicy": "Built-in language packages are published here only for updates, repair, rollback, and older-version access."
+  "name": "Official Code Desk Package Repository",
+  "catalogUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/catalog.json",
+  "repositoryFormat": "1.0",
+  "targetCodeDeskVersion": "0.1.3"
 }

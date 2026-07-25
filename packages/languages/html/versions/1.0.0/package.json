@@ -1,10 +1,10 @@
 {
   "formatVersion": 1,
-  "id": "codedesk-language-java",
-  "name": "Java Language Support",
+  "id": "codedesk-language-html",
+  "name": "HTML Language Support",
   "publisher": "Code Desk",
   "version": "1.0.0",
-  "description": "Java language metadata, templates, autocomplete data, and JDK compiler configuration.",
+  "description": "HTML language metadata, starter templates, snippets, and browser preview configuration.",
   "category": "language",
   "required": false,
   "compatibility": {
@@ -23,14 +23,14 @@
     ]
   },
   "download": {
-    "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/java/versions/1.0.0/codedesk-language-java-1.0.0.zip",
-    "fileName": "codedesk-language-java-1.0.0.zip",
-    "sizeBytes": 2218,
-    "sha256": "adf653e748272efcb76c18ba3dbf7ede033be925e98a55377a4a07fa4dbf601f",
+    "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/html/versions/1.0.0/codedesk-language-html-1.0.0.zip",
+    "fileName": "codedesk-language-html-1.0.0.zip",
+    "sizeBytes": 2040,
+    "sha256": "2e66cbb3e2ae5660d60fa969f37accba244d31d6bacf829dd37b2c835a8d4282",
     "timeoutSeconds": 300
   },
   "installation": {
-    "destination": "packages/languages/java",
+    "destination": "packages/languages/html",
     "requiresRestart": true,
     "canRepair": true,
     "canUpdate": true,
@@ -41,7 +41,7 @@
   "permissions": [
     {
       "id": "write-package-files",
-      "description": "Install files under packages/languages/java."
+      "description": "Install files under packages/languages/html."
     }
   ],
   "license": {

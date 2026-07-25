@@ -1,0 +1,200 @@
+{
+  "generatedAt": "2026-07-25T20:30:42Z",
+  "files": [
+    {
+      "path": "README.md",
+      "sizeBytes": 458,
+      "sha256": "0da7cbfa0f03a6365ba891df821b96e49a28f24f178d65cd945d74aec06d3bd9"
+    },
+    {
+      "path": "UPLOAD-INSTRUCTIONS.txt",
+      "sizeBytes": 591,
+      "sha256": "084058e3f881543cc7642c24d4bc52482cd96297bb22784744824f9f5e836c3a"
+    },
+    {
+      "path": "catalog.json",
+      "sizeBytes": 4265,
+      "sha256": "4ba39b8baa68875db0e999c2bd3cf19870a80c3bee0a60946825d62f3845daa5"
+    },
+    {
+      "path": "licenses/codedesk-package-license-1.0.txt",
+      "sizeBytes": 248,
+      "sha256": "d97acdbf0f08047fec4cfac2351c070234d539644609c9efd95130b9bf456457"
+    },
+    {
+      "path": "packages/languages/css/README.md",
+      "sizeBytes": 47,
+      "sha256": "031044b45928e7eb86b874a3a6a37fb1112add81b464949e7315430ce8f0502a"
+    },
+    {
+      "path": "packages/languages/css/package.json",
+      "sizeBytes": 1528,
+      "sha256": "5669d2cec891c22d636cfad9eee3a03a8f7ca83fcba5d45f07e8faa7b895afc0"
+    },
+    {
+      "path": "packages/languages/css/versions/1.0.0/codedesk-language-css-1.0.0.zip",
+      "sizeBytes": 1790,
+      "sha256": "ec4a9d62477103fa040293467dce2a0710f8980e368290e84e043529dfd51836"
+    },
+    {
+      "path": "packages/languages/css/versions/1.0.0/package.json",
+      "sizeBytes": 1528,
+      "sha256": "5669d2cec891c22d636cfad9eee3a03a8f7ca83fcba5d45f07e8faa7b895afc0"
+    },
+    {
+      "path": "packages/languages/html/README.md",
+      "sizeBytes": 48,
+      "sha256": "c526f91fcc437e4c368db4a32965a57a8b3bce832bf84a9fdec136d8989efccd"
+    },
+    {
+      "path": "packages/languages/html/package.json",
+      "sizeBytes": 1543,
+      "sha256": "403b36c21cf1267ebdc851e005f03011a6b8a70c32c12196c5ff32982150ec27"
+    },
+    {
+      "path": "packages/languages/html/versions/1.0.0/codedesk-language-html-1.0.0.zip",
+      "sizeBytes": 2040,
+      "sha256": "2e66cbb3e2ae5660d60fa969f37accba244d31d6bacf829dd37b2c835a8d4282"
+    },
+    {
+      "path": "packages/languages/html/versions/1.0.0/package.json",
+      "sizeBytes": 1543,
+      "sha256": "403b36c21cf1267ebdc851e005f03011a6b8a70c32c12196c5ff32982150ec27"
+    },
+    {
+      "path": "packages/languages/java/README.md",
+      "sizeBytes": 48,
+      "sha256": "b4e1657af6351b6c13e4d2ead052e83d4dbd02444ba1cf49706c5c8a670151e5"
+    },
+    {
+      "path": "packages/languages/java/package.json",
+      "sizeBytes": 1541,
+      "sha256": "1b6557abb1e3356abaf6398963d810975821a78de807edae238aff626039be88"
+    },
+    {
+      "path": "packages/languages/java/versions/1.0.0/codedesk-language-java-1.0.0.zip",
+      "sizeBytes": 2218,
+      "sha256": "adf653e748272efcb76c18ba3dbf7ede033be925e98a55377a4a07fa4dbf601f"
+    },
+    {
+      "path": "packages/languages/java/versions/1.0.0/package.json",
+      "sizeBytes": 1541,
+      "sha256": "1b6557abb1e3356abaf6398963d810975821a78de807edae238aff626039be88"
+    },
+    {
+      "path": "packages/languages/python/README.md",
+      "sizeBytes": 50,
+      "sha256": "f8b6efcb5e062810330bf882458b0c77f937b6c540cc250fad7b580a54aa5749"
+    },
+    {
+      "path": "packages/languages/python/package.json",
+      "sizeBytes": 1556,
+      "sha256": "1d001a62c21c2d2df021075b69279c0c93488df015c922bd49eef94ec9bf65d6"
+    },
+    {
+      "path": "packages/languages/python/versions/1.0.0/codedesk-language-python-1.0.0.zip",
+      "sizeBytes": 1931,
+      "sha256": "fb1947a67c056a8b54e02298fd9bc0da59e3b3ee130be48dfe473610a194586d"
+    },
+    {
+      "path": "packages/languages/python/versions/1.0.0/package.json",
+      "sizeBytes": 1556,
+      "sha256": "1d001a62c21c2d2df021075b69279c0c93488df015c922bd49eef94ec9bf65d6"
+    },
+    {
+      "path": "packages/testing/compiler-config/README.md",
+      "sizeBytes": 52,
+      "sha256": "c6b1aab83738ae2f0bb7ad6cdeebef224db511e039cf285332f58265a00e9489"
+    },
+    {
+      "path": "packages/testing/compiler-config/package.json",
+      "sizeBytes": 1601,
+      "sha256": "03be760c7fcbe58893c79e2073ee51dc3ddab86a00315d77b9842047701c7ca8"
+    },
+    {
+      "path": "packages/testing/compiler-config/versions/1.0.0/codedesk-qa-compiler-config-1.0.0.zip",
+      "sizeBytes": 1418,
+      "sha256": "59420fb4bad01e3344b78261d665cff7c1260949ec3c6fe4d4fa13ad6cb038d1"
+    },
+    {
+      "path": "packages/testing/compiler-config/versions/1.0.0/package.json",
+      "sizeBytes": 1601,
+      "sha256": "03be760c7fcbe58893c79e2073ee51dc3ddab86a00315d77b9842047701c7ca8"
+    },
+    {
+      "path": "packages/testing/install-marker/README.md",
+      "sizeBytes": 58,
+      "sha256": "5f1a790f9e4583e1c4421ad442878555d48aeff070bf9a6bbff3ea208d7297a8"
+    },
+    {
+      "path": "packages/testing/install-marker/package.json",
+      "sizeBytes": 1609,
+      "sha256": "95ea75f6367ace415a2c7664784f7aff75d0b8768b88ae7a459a16998ce50771"
+    },
+    {
+      "path": "packages/testing/install-marker/versions/1.0.0/codedesk-qa-install-marker-1.0.0.zip",
+      "sizeBytes": 1428,
+      "sha256": "df29e91ec8cfaa836671ca019d87a8326adf47112d609f909d1eab54bff2636a"
+    },
+    {
+      "path": "packages/testing/install-marker/versions/1.0.0/package.json",
+      "sizeBytes": 1609,
+      "sha256": "95ea75f6367ace415a2c7664784f7aff75d0b8768b88ae7a459a16998ce50771"
+    },
+    {
+      "path": "release-staging/qa-install-marker-1.0.1/PUBLISHING-INSTRUCTIONS.txt",
+      "sizeBytes": 638,
+      "sha256": "bfcbcf5ac517fd563fb6ae149b512cb19390a38b32134cdd493903cb4e9a1ff7"
+    },
+    {
+      "path": "release-staging/qa-install-marker-1.0.1/README.md",
+      "sizeBytes": 58,
+      "sha256": "702809c7dd7ec66045500ab1f610fd7a34be15fe9ca3fe96b666c006fb4ad8ac"
+    },
+    {
+      "path": "release-staging/qa-install-marker-1.0.1/package.json",
+      "sizeBytes": 1617,
+      "sha256": "5055f4d6494a50a43f8bda49c0e57d2709bdba672e626edeb34266e224ce0d69"
+    },
+    {
+      "path": "release-staging/qa-install-marker-1.0.1/versions/1.0.1/codedesk-qa-install-marker-1.0.1.zip",
+      "sizeBytes": 1614,
+      "sha256": "8a93673df05b40ced329bfae69e7fb6cc9868e7c675fba053f2bfbb7eebe01d5"
+    },
+    {
+      "path": "release-staging/qa-install-marker-1.0.1/versions/1.0.1/package.json",
+      "sizeBytes": 1617,
+      "sha256": "5055f4d6494a50a43f8bda49c0e57d2709bdba672e626edeb34266e224ce0d69"
+    },
+    {
+      "path": "repository-info.json",
+      "sizeBytes": 288,
+      "sha256": "d2c3531aca4a8b5bdbaced30f96b5caae95eb351d740e90cfd7e2bf89e24ca9f"
+    },
+    {
+      "path": "schemas/package-manifest.schema.json",
+      "sizeBytes": 308,
+      "sha256": "48140ad8749a702bb75a0173ca575b340bb72e4d15269a9b7453da74558deddc"
+    },
+    {
+      "path": "schemas/repository.schema.json",
+      "sizeBytes": 297,
+      "sha256": "dd6762183935df1a90d8b250e4d61ce71f54662f386793723349bfa760bbcc30"
+    },
+    {
+      "path": "terms/repository-terms-1.0.txt",
+      "sizeBytes": 308,
+      "sha256": "bb00b5b8612d9a8fd5f642a525f54d0e0e53ce9ea2eff8a12b9f29c050957f18"
+    },
+    {
+      "path": "tools/validate_repository.py",
+      "sizeBytes": 1643,
+      "sha256": "6eab493a630596b926c1e64b3248140e2398e204cea65be0a631a20252687676"
+    },
+    {
+      "path": "tools/verify_github_downloads.py",
+      "sizeBytes": 1526,
+      "sha256": "189b870e05d5e1f620cd511545b336228d2c80a76f2975f0a914b509c357e9a3"
+    }
+  ]
+}
