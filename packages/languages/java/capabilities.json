@@ -1,0 +1,33 @@
+{
+    "$schema": "../../../schemas/package-capabilities.schema.json",
+
+    "languages": true,
+
+    "autocomplete": true,
+
+    "syntaxHighlighting": true,
+
+    "templates": true,
+
+    "compiler": true,
+
+    "formatter": false,
+
+    "linter": false,
+
+    "debugger": false,
+
+    "documentation": true,
+
+    "icons": false,
+
+    "themes": false,
+
+    "libraries": false,
+
+    "plugins": false,
+
+    "tasks": false,
+
+    "ai": false
+}
