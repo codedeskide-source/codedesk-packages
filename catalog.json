@@ -1,0 +1,37 @@
+{
+    "repository": "Official Code Desk Repository",
+
+    "repositoryId": "codedesk-official",
+
+    "formatVersion": 1,
+
+    "generated": "2026-07-25T00:00:00Z",
+
+    "packages": [
+
+        {
+            "id": "codedesk.language.java",
+
+            "name": "Java Language Support",
+
+            "category": "language",
+
+            "version": "1.0.0",
+
+            "status": "stable",
+
+            "publisher": "Code Desk",
+
+            "description": "Official Java support.",
+
+            "minimumCodeDeskVersion": "0.1.3",
+
+            "packageFolder": "packages/languages/java",
+
+            "versionsFile": "packages/languages/java/versions/versions.json",
+
+            "manifest": "packages/languages/java/package.json"
+        }
+
+    ]
+}
