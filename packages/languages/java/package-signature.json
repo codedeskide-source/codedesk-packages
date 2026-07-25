@@ -1,13 +1,8 @@
 {
-    "signatureVersion": 1,
-
-    "packageId": "codedesk.language.java",
-
-    "signed": false,
-
-    "algorithm": "",
-
-    "publicKey": "",
-
-    "signature": ""
+  "signatureVersion": 1,
+  "packageId": "codedesk.language.java",
+  "signed": false,
+  "algorithm": "",
+  "publicKey": "",
+  "signature": ""
 }

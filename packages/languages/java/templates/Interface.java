@@ -1,5 +1,3 @@
-${packageDeclaration}
-
-public interface ${InterfaceName} {
+public interface InterfaceName {
 
 }

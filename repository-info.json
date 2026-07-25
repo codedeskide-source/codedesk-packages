@@ -2,21 +2,16 @@
   "formatVersion": 1,
   "repositoryId": "codedesk-official",
   "repositoryName": "Official Code Desk Package Repository",
-  "publisher": "Code Desk",
-  "description": "Official downloadable language packages, themes, libraries, assets, licenses, and supporting files for Code Desk.",
   "repositoryType": "official",
-  "defaultBranch": "main",
   "catalogPath": "catalog.json",
   "minimumCodeDeskVersion": "0.1.3",
-  "website": "https://github.com/codedeskide-source/codedesk-packages",
-  "termsPath": "terms/repository-terms.txt",
-  "licensePath": "licenses/repository-license.txt",
   "packageManifestFormatVersion": 1,
   "catalogFormatVersion": 1,
-  "maintainers": [
-    {
-      "name": "Code Desk",
-      "role": "Official repository publisher"
-    }
-  ]
+  "builtInLanguages": [
+    "java",
+    "python",
+    "html",
+    "css"
+  ],
+  "repositoryLanguagePolicy": "Built-in language packages are published here only for updates, repair, rollback, and older-version access."
 }

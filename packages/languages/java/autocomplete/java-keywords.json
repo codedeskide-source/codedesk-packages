@@ -1,379 +1,89 @@
 {
-    "formatVersion": 1,
-    "languageId": "java",
-    "displayName": "Java Keywords and Completions",
-
-    "keywords": [
-        {
-            "text": "abstract",
-            "category": "modifier",
-            "description": "Declares a class or method that is incomplete and must be implemented by a subclass."
-        },
-        {
-            "text": "assert",
-            "category": "statement",
-            "description": "Tests an assumption during development."
-        },
-        {
-            "text": "boolean",
-            "category": "primitive-type",
-            "description": "Stores either true or false."
-        },
-        {
-            "text": "break",
-            "category": "statement",
-            "description": "Exits a loop or switch statement."
-        },
-        {
-            "text": "byte",
-            "category": "primitive-type",
-            "description": "Stores an 8-bit signed integer."
-        },
-        {
-            "text": "case",
-            "category": "statement",
-            "description": "Defines a branch inside a switch statement."
-        },
-        {
-            "text": "catch",
-            "category": "exception",
-            "description": "Handles an exception thrown by a try block."
-        },
-        {
-            "text": "char",
-            "category": "primitive-type",
-            "description": "Stores a single 16-bit Unicode character."
-        },
-        {
-            "text": "class",
-            "category": "declaration",
-            "description": "Declares a Java class."
-        },
-        {
-            "text": "const",
-            "category": "reserved",
-            "description": "Reserved by Java but not currently used."
-        },
-        {
-            "text": "continue",
-            "category": "statement",
-            "description": "Skips to the next iteration of a loop."
-        },
-        {
-            "text": "default",
-            "category": "statement",
-            "description": "Defines the default switch branch or a default interface method."
-        },
-        {
-            "text": "do",
-            "category": "loop",
-            "description": "Begins a do-while loop."
-        },
-        {
-            "text": "double",
-            "category": "primitive-type",
-            "description": "Stores a double-precision floating-point number."
-        },
-        {
-            "text": "else",
-            "category": "conditional",
-            "description": "Defines the alternative branch of an if statement."
-        },
-        {
-            "text": "enum",
-            "category": "declaration",
-            "description": "Declares an enumeration."
-        },
-        {
-            "text": "extends",
-            "category": "inheritance",
-            "description": "Declares inheritance from another class or interface."
-        },
-        {
-            "text": "final",
-            "category": "modifier",
-            "description": "Prevents reassignment, overriding, or inheritance depending on context."
-        },
-        {
-            "text": "finally",
-            "category": "exception",
-            "description": "Defines code that runs after try and catch processing."
-        },
-        {
-            "text": "float",
-            "category": "primitive-type",
-            "description": "Stores a single-precision floating-point number."
-        },
-        {
-            "text": "for",
-            "category": "loop",
-            "description": "Begins a for loop."
-        },
-        {
-            "text": "goto",
-            "category": "reserved",
-            "description": "Reserved by Java but not currently used."
-        },
-        {
-            "text": "if",
-            "category": "conditional",
-            "description": "Runs code when a condition is true."
-        },
-        {
-            "text": "implements",
-            "category": "inheritance",
-            "description": "Declares interfaces implemented by a class."
-        },
-        {
-            "text": "import",
-            "category": "declaration",
-            "description": "Makes another package or type available in the current source file."
-        },
-        {
-            "text": "instanceof",
-            "category": "operator",
-            "description": "Tests whether an object is an instance of a type."
-        },
-        {
-            "text": "int",
-            "category": "primitive-type",
-            "description": "Stores a 32-bit signed integer."
-        },
-        {
-            "text": "interface",
-            "category": "declaration",
-            "description": "Declares a Java interface."
-        },
-        {
-            "text": "long",
-            "category": "primitive-type",
-            "description": "Stores a 64-bit signed integer."
-        },
-        {
-            "text": "native",
-            "category": "modifier",
-            "description": "Declares a method implemented outside Java."
-        },
-        {
-            "text": "new",
-            "category": "operator",
-            "description": "Creates a new object or array."
-        },
-        {
-            "text": "package",
-            "category": "declaration",
-            "description": "Declares the package containing the source file."
-        },
-        {
-            "text": "private",
-            "category": "access-modifier",
-            "description": "Restricts access to the declaring class."
-        },
-        {
-            "text": "protected",
-            "category": "access-modifier",
-            "description": "Allows access from the package and subclasses."
-        },
-        {
-            "text": "public",
-            "category": "access-modifier",
-            "description": "Allows access from other classes."
-        },
-        {
-            "text": "return",
-            "category": "statement",
-            "description": "Ends a method and optionally returns a value."
-        },
-        {
-            "text": "short",
-            "category": "primitive-type",
-            "description": "Stores a 16-bit signed integer."
-        },
-        {
-            "text": "static",
-            "category": "modifier",
-            "description": "Associates a member with the class rather than an instance."
-        },
-        {
-            "text": "strictfp",
-            "category": "modifier",
-            "description": "Requests consistent floating-point behavior."
-        },
-        {
-            "text": "super",
-            "category": "reference",
-            "description": "References the parent class."
-        },
-        {
-            "text": "switch",
-            "category": "conditional",
-            "description": "Selects a code branch based on a value."
-        },
-        {
-            "text": "synchronized",
-            "category": "modifier",
-            "description": "Controls concurrent access to a method or block."
-        },
-        {
-            "text": "this",
-            "category": "reference",
-            "description": "References the current object."
-        },
-        {
-            "text": "throw",
-            "category": "exception",
-            "description": "Throws an exception."
-        },
-        {
-            "text": "throws",
-            "category": "exception",
-            "description": "Declares exceptions that a method may throw."
-        },
-        {
-            "text": "transient",
-            "category": "modifier",
-            "description": "Excludes a field from default serialization."
-        },
-        {
-            "text": "try",
-            "category": "exception",
-            "description": "Begins a block that may throw an exception."
-        },
-        {
-            "text": "void",
-            "category": "return-type",
-            "description": "Indicates that a method does not return a value."
-        },
-        {
-            "text": "volatile",
-            "category": "modifier",
-            "description": "Marks a field whose value may be changed by multiple threads."
-        },
-        {
-            "text": "while",
-            "category": "loop",
-            "description": "Runs a loop while a condition remains true."
-        }
-    ],
-
-    "literals": [
-        {
-            "text": "true",
-            "description": "Boolean true value."
-        },
-        {
-            "text": "false",
-            "description": "Boolean false value."
-        },
-        {
-            "text": "null",
-            "description": "Represents the absence of an object reference."
-        }
-    ],
-
-    "commonTypes": [
-        {
-            "text": "String",
-            "import": "java.lang.String",
-            "description": "Represents text."
-        },
-        {
-            "text": "System",
-            "import": "java.lang.System",
-            "description": "Provides standard input, output, and system utilities."
-        },
-        {
-            "text": "Object",
-            "import": "java.lang.Object",
-            "description": "Base class of Java objects."
-        },
-        {
-            "text": "Integer",
-            "import": "java.lang.Integer",
-            "description": "Wrapper class for int values."
-        },
-        {
-            "text": "Double",
-            "import": "java.lang.Double",
-            "description": "Wrapper class for double values."
-        },
-        {
-            "text": "Boolean",
-            "import": "java.lang.Boolean",
-            "description": "Wrapper class for boolean values."
-        },
-        {
-            "text": "Exception",
-            "import": "java.lang.Exception",
-            "description": "Base class for many recoverable exceptions."
-        },
-        {
-            "text": "RuntimeException",
-            "import": "java.lang.RuntimeException",
-            "description": "Base class for unchecked exceptions."
-        },
-        {
-            "text": "List",
-            "import": "java.util.List",
-            "description": "Ordered collection interface."
-        },
-        {
-            "text": "ArrayList",
-            "import": "java.util.ArrayList",
-            "description": "Resizable list implementation."
-        },
-        {
-            "text": "Map",
-            "import": "java.util.Map",
-            "description": "Key-value collection interface."
-        },
-        {
-            "text": "HashMap",
-            "import": "java.util.HashMap",
-            "description": "Hash-table map implementation."
-        },
-        {
-            "text": "Set",
-            "import": "java.util.Set",
-            "description": "Collection that does not contain duplicate elements."
-        },
-        {
-            "text": "HashSet",
-            "import": "java.util.HashSet",
-            "description": "Hash-table set implementation."
-        }
-    ],
-
-    "snippets": [
-        {
-            "trigger": "main",
-            "displayText": "main method",
-            "description": "Creates a standard Java main method.",
-            "insertText": "public static void main(String[] args) {\n\t${cursor}\n}"
-        },
-        {
-            "trigger": "sout",
-            "displayText": "System.out.println",
-            "description": "Prints a line to standard output.",
-            "insertText": "System.out.println(${cursor});"
-        },
-        {
-            "trigger": "fori",
-            "displayText": "indexed for loop",
-            "description": "Creates an indexed for loop.",
-            "insertText": "for (int i = 0; i < ${limit}; i++) {\n\t${cursor}\n}"
-        },
-        {
-            "trigger": "foreach",
-            "displayText": "enhanced for loop",
-            "description": "Creates an enhanced for loop.",
-            "insertText": "for (${Type} ${item} : ${collection}) {\n\t${cursor}\n}"
-        },
-        {
-            "trigger": "trycatch",
-            "displayText": "try-catch block",
-            "description": "Creates a try-catch block.",
-            "insertText": "try {\n\t${cursor}\n} catch (Exception exception) {\n\texception.printStackTrace();\n}"
-        }
-    ]
+  "formatVersion": 1,
+  "languageId": "java",
+  "keywords": [
+    "abstract",
+    "assert",
+    "boolean",
+    "break",
+    "byte",
+    "case",
+    "catch",
+    "char",
+    "class",
+    "const",
+    "continue",
+    "default",
+    "do",
+    "double",
+    "else",
+    "enum",
+    "extends",
+    "final",
+    "finally",
+    "float",
+    "for",
+    "goto",
+    "if",
+    "implements",
+    "import",
+    "instanceof",
+    "int",
+    "interface",
+    "long",
+    "native",
+    "new",
+    "package",
+    "private",
+    "protected",
+    "public",
+    "return",
+    "short",
+    "static",
+    "strictfp",
+    "super",
+    "switch",
+    "synchronized",
+    "this",
+    "throw",
+    "throws",
+    "transient",
+    "try",
+    "void",
+    "volatile",
+    "while",
+    "true",
+    "false",
+    "null"
+  ],
+  "commonTypes": [
+    "String",
+    "Object",
+    "System",
+    "Integer",
+    "Long",
+    "Double",
+    "Boolean",
+    "List",
+    "ArrayList",
+    "Map",
+    "HashMap",
+    "Set",
+    "HashSet",
+    "Optional",
+    "Path",
+    "Files"
+  ],
+  "snippets": [
+    {
+      "id": "main",
+      "label": "main method",
+      "insertText": "public static void main(String[] args) {\n    \n}"
+    },
+    {
+      "id": "println",
+      "label": "System.out.println",
+      "insertText": "System.out.println();"
+    }
+  ]
 }

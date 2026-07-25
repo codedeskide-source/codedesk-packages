@@ -1,104 +1,41 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "title": "Code Desk Repository Catalog",
-    "description": "Master package catalog for Code Desk.",
-    "type": "object",
-
-    "required": [
-        "repository",
-        "formatVersion",
-        "generated",
-        "packages"
-    ],
-
-    "properties": {
-
-        "repository": {
-            "type": "string"
-        },
-
-        "formatVersion": {
-            "type": "integer",
-            "minimum": 1
-        },
-
-        "generated": {
-            "type": "string"
-        },
-
-        "packages": {
-
-            "type": "array",
-
-            "items": {
-
-                "type": "object",
-
-                "required": [
-                    "id",
-                    "name",
-                    "category",
-                    "version",
-                    "packageFile",
-                    "manifest"
-                ],
-
-                "properties": {
-
-                    "id": {
-                        "type": "string"
-                    },
-
-                    "name": {
-                        "type": "string"
-                    },
-
-                    "category": {
-                        "type": "string"
-                    },
-
-                    "version": {
-                        "type": "string"
-                    },
-
-                    "description": {
-                        "type": "string"
-                    },
-
-                    "author": {
-                        "type": "string"
-                    },
-
-                    "homepage": {
-                        "type": "string"
-                    },
-
-                    "license": {
-                        "type": "string"
-                    },
-
-                    "minimumCodeDeskVersion": {
-                        "type": "string"
-                    },
-
-                    "packageFile": {
-                        "type": "string"
-                    },
-
-                    "manifest": {
-                        "type": "string"
-                    },
-
-                    "sha256": {
-                        "type": "string"
-                    },
-
-                    "size": {
-                        "type": "integer",
-                        "minimum": 0
-                    }
-                }
-            }
-        }
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Code Desk Repository Catalog 1.0",
+  "type": "object",
+  "required": [
+    "formatVersion",
+    "repositoryId",
+    "repositoryName",
+    "catalogVersion",
+    "generatedAt",
+    "minimumCodeDeskVersion",
+    "packages"
+  ],
+  "properties": {
+    "formatVersion": {
+      "const": 1
+    },
+    "repositoryId": {
+      "type": "string"
+    },
+    "repositoryName": {
+      "type": "string"
+    },
+    "catalogVersion": {
+      "type": "string"
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "minimumCodeDeskVersion": {
+      "type": "string"
+    },
+    "termsUrl": {
+      "type": "string"
+    },
+    "packages": {
+      "type": "array"
     }
+  }
 }

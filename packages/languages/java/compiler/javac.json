@@ -1,89 +1,20 @@
 {
-    "formatVersion": 1,
-    "compilerId": "javac",
-    "languageId": "java",
-
-    "displayName": "Java Compiler",
-    "description": "Compiles Java source files using the javac executable included with a Java Development Kit.",
-
-    "executableNames": {
-        "windows": [
-            "javac.exe"
-        ],
-        "linux": [
-            "javac"
-        ],
-        "macos": [
-            "javac"
-        ]
-    },
-
-    "discovery": {
-        "searchSystemPath": true,
-        "environmentVariables": [
-            "JAVA_HOME",
-            "JDK_HOME"
-        ],
-        "relativeExecutablePaths": [
-            "bin/javac.exe",
-            "bin/javac"
-        ]
-    },
-
-    "minimumJavaVersion": "17",
-
-    "sourceExtensions": [
-        ".java"
-    ],
-
-    "outputExtension": ".class",
-
-    "compile": {
-        "workingDirectory": "${projectRoot}",
-        "arguments": [
-            "-encoding",
-            "UTF-8",
-            "-d",
-            "${outputDirectory}",
-            "${sourceFiles}"
-        ]
-    },
-
-    "compileWithLibraries": {
-        "workingDirectory": "${projectRoot}",
-        "windowsClasspathSeparator": ";",
-        "unixClasspathSeparator": ":",
-        "arguments": [
-            "-encoding",
-            "UTF-8",
-            "-classpath",
-            "${classpath}",
-            "-d",
-            "${outputDirectory}",
-            "${sourceFiles}"
-        ]
-    },
-
-    "lint": {
-        "enabledByDefault": true,
-        "arguments": [
-            "-Xlint:all"
-        ]
-    },
-
-    "errorParser": {
-        "format": "javac",
-        "linePattern": "^(.*\\.java):(\\d+):\\s*(error|warning):\\s*(.*)$",
-        "continuationLines": true
-    },
-
-    "exitCodes": {
-        "success": [
-            0
-        ],
-        "failure": [
-            1,
-            2
-        ]
-    }
+  "formatVersion": 1,
+  "id": "javac",
+  "displayName": "Java Compiler",
+  "executableNames": [
+    "javac",
+    "javac.exe"
+  ],
+  "minimumVersion": "17",
+  "sourceExtensions": [
+    ".java"
+  ],
+  "defaultArguments": [
+    "-encoding",
+    "UTF-8"
+  ],
+  "versionArguments": [
+    "-version"
+  ]
 }

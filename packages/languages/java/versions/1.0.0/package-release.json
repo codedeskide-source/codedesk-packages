@@ -1,34 +1,18 @@
 {
-    "$schema": "../../../../../schemas/package-release.schema.json",
-
-    "formatVersion": 1,
-
-    "packageId": "codedesk.language.java",
-
-    "version": "1.0.0",
-
-    "releaseDate": "2026-07-25",
-
-    "status": "stable",
-
-    "minimumCodeDeskVersion": "0.1.3",
-
-    "maximumCodeDeskVersion": null,
-
-    "download": "java-language-1.0.0.zip",
-
-    "manifest": "../../package.json",
-
-    "sha256": "",
-
-    "size": 0,
-
-    "notes": [
-        "Initial public release.",
-        "Added Java source-file recognition.",
-        "Added Java keyword and common-type autocomplete information.",
-        "Added Java code snippets.",
-        "Added Java source templates.",
-        "Added JDK 17 compiler discovery and javac compilation support."
-    ]
+  "formatVersion": 1,
+  "packageId": "codedesk.language.java",
+  "version": "1.0.0",
+  "releaseDate": "2026-07-25",
+  "status": "stable",
+  "minimumCodeDeskVersion": "0.1.3",
+  "maximumCodeDeskVersion": "0.1.3",
+  "download": "java-language-1.0.0.zip",
+  "manifest": "../../package.json",
+  "sha256": "3c02a9f36f2560eb446f34d1ecbb00e9810ae6c9a89647a5fbb2da4f9e645cf6",
+  "size": 3658,
+  "notes": [
+    "Initial repository installation test release.",
+    "Java remains built into the main Code Desk application.",
+    "This package tests update, repair, rollback, disable-state, and uninstall handling."
+  ]
 }

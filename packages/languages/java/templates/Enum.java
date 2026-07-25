@@ -1,8 +1,3 @@
-${packageDeclaration}
-
-public enum ${EnumName} {
-
-    VALUE_ONE,
-    VALUE_TWO
-
+public enum EnumName {
+    VALUE
 }

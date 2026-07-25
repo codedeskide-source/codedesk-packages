@@ -1,8 +1,3 @@
-${packageDeclaration}
-
-public class ${ClassName} {
-
-    public ${ClassName}() {
-    }
+public class ClassName {
 
 }

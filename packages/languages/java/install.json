@@ -1,60 +1,44 @@
 {
-    "$schema": "../../../schemas/package-install.schema.json",
-
-    "formatVersion": 1,
-
-    "installMode": "copy",
-
-    "overwriteExisting": true,
-
-    "verifyChecksums": true,
-
-    "createDirectories": true,
-
-    "rollbackOnFailure": true,
-
-    "requiresRestart": false,
-
-    "postInstallTasks": [
-        {
-            "task": "reload-languages",
-            "required": true,
-            "arguments": {
-                "languageId": "java"
-            }
-        },
-        {
-            "task": "reload-syntax",
-            "required": true,
-            "arguments": {
-                "languageId": "java"
-            }
-        },
-        {
-            "task": "reload-autocomplete",
-            "required": true,
-            "arguments": {
-                "languageId": "java"
-            }
-        },
-        {
-            "task": "reload-templates",
-            "required": true,
-            "arguments": {
-                "languageId": "java"
-            }
-        },
-        {
-            "task": "reload-compilers",
-            "required": true,
-            "arguments": {
-                "compilerId": "javac"
-            }
-        },
-        {
-            "task": "refresh-package-index",
-            "required": true,
-            "arguments": {}
-        }
-    ]
+  "formatVersion": 1,
+  "installMode": "copy",
+  "overwriteExisting": true,
+  "verifyChecksums": true,
+  "createDirectories": true,
+  "rollbackOnFailure": true,
+  "requiresRestart": false,
+  "postInstallTasks": [
+    {
+      "task": "reload-languages",
+      "required": true,
+      "arguments": {
+        "languageId": "java"
+      }
+    },
+    {
+      "task": "reload-autocomplete",
+      "required": true,
+      "arguments": {
+        "languageId": "java"
+      }
+    },
+    {
+      "task": "reload-templates",
+      "required": true,
+      "arguments": {
+        "languageId": "java"
+      }
+    },
+    {
+      "task": "reload-compilers",
+      "required": true,
+      "arguments": {
+        "compilerId": "javac"
+      }
+    },
+    {
+      "task": "refresh-package-index",
+      "required": true,
+      "arguments": {}
+    }
+  ]
 }

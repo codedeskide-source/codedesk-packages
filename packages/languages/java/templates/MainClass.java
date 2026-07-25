@@ -1,12 +1,5 @@
-${packageDeclaration}
-
-public final class ${ClassName} {
-
-    private ${ClassName}() {
-    }
-
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Code Desk Java project started.");
+        System.out.println("Hello from Code Desk!");
     }
-
 }

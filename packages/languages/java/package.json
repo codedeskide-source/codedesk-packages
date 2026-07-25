@@ -1,78 +1,54 @@
 {
-    "$schema": "../../../schemas/package-manifest.schema.json",
-
-    "id": "codedesk.language.java",
-    "name": "java-language",
-    "displayName": "Java Language Support",
-
-    "version": "1.0.0",
-    "type": "language",
-    "publisher": "Code Desk",
-
-    "description": "Official Java language support package for Code Desk, including file recognition, syntax configuration, autocomplete data, compiler configuration, templates, and documentation.",
-
-    "homepage": "https://github.com/codedeskide-source/codedesk-packages",
-
-    "license": "Code Desk Official Package License",
-
+  "formatVersion": 1,
+  "id": "codedesk.language.java",
+  "name": "Java Language Support",
+  "publisher": "Code Desk",
+  "version": "1.0.0",
+  "description": "Java language metadata update and repository installation test package.",
+  "category": "language",
+  "required": false,
+  "compatibility": {
     "minimumCodeDeskVersion": "0.1.3",
-
-    "language": {
-        "id": "java",
-        "displayName": "Java",
-        "extensions": [
-            ".java"
-        ],
-        "fileNames": [
-            "module-info.java",
-            "package-info.java"
-        ],
-        "syntaxId": "text/java",
-        "defaultEncoding": "UTF-8"
-    },
-
-    "dependencies": [],
-
-    "files": [
-        {
-            "source": "language/java-language.json",
-            "destination": "languages/java/java-language.json",
-            "sha256": ""
-        },
-        {
-            "source": "autocomplete/java-keywords.json",
-            "destination": "languages/java/autocomplete/java-keywords.json",
-            "sha256": ""
-        },
-        {
-            "source": "compiler/javac.json",
-            "destination": "languages/java/compiler/javac.json",
-            "sha256": ""
-        },
-        {
-            "source": "templates/Class.java",
-            "destination": "languages/java/templates/Class.java",
-            "sha256": ""
-        },
-        {
-            "source": "templates/Interface.java",
-            "destination": "languages/java/templates/Interface.java",
-            "sha256": ""
-        },
-        {
-            "source": "templates/Enum.java",
-            "destination": "languages/java/templates/Enum.java",
-            "sha256": ""
-        },
-        {
-            "source": "templates/MainClass.java",
-            "destination": "languages/java/templates/MainClass.java",
-            "sha256": ""
-        },
-        {
-            "source": "documentation/java-package-readme.txt",
-            "destination": "languages/java/documentation/java-package-readme.txt",
-            "sha256": ""
-        }
+    "maximumCodeDeskVersion": "0.1.3",
+    "operatingSystems": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "architectures": [
+      "any"
     ]
+  },
+  "download": {
+    "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/java/versions/1.0.0/java-language-1.0.0.zip",
+    "fileName": "java-language-1.0.0.zip",
+    "sizeBytes": 3658,
+    "sha256": "3c02a9f36f2560eb446f34d1ecbb00e9810ae6c9a89647a5fbb2da4f9e645cf6",
+    "timeoutSeconds": 300
+  },
+  "installation": {
+    "destination": "packages/languages/java",
+    "requiresRestart": false,
+    "canRepair": true,
+    "canUpdate": true,
+    "canUninstall": true,
+    "canDisable": true
+  },
+  "dependencies": [],
+  "permissions": [
+    {
+      "id": "filesystem.package-data",
+      "description": "Install Java language data inside the Code Desk package-data directory."
+    },
+    {
+      "id": "process.javac",
+      "description": "Allow Code Desk to run the locally installed javac compiler when the user builds Java code."
+    }
+  ],
+  "license": {
+    "name": "Code Desk Package License",
+    "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/licenses/codedesk-package-license-1.0.txt",
+    "version": "1.0",
+    "acceptanceRequired": false
+  }
 }

@@ -1,0 +1,30 @@
+CODE DESK REPOSITORY TEST BASELINE STATUS
+=========================================
+
+COMPLETE
+--------
+- Catalog format matches Code Desk 0.1.3 RepositoryService.
+- Java external package manifest matches Code Desk 0.1.3 PackageManifest.
+- Package ZIP contains required package.json and payload/ structure.
+- Package ZIP has real size and SHA-256 in the external manifest.
+- Release metadata has real size and SHA-256.
+- Java payload includes language, autocomplete, compiler, templates,
+  documentation, and changelog data.
+- Install, repair, update, disable-state, and uninstall flags are enabled.
+- Java is marked as built into Code Desk; repository role is update/repair/
+  rollback/older-version delivery.
+- Python, HTML, and CSS are intentionally not listed in the repository yet.
+- Repository validation script passes.
+
+ONE REQUIRED CODE DESK 0.1.3 CORRECTION
+---------------------------------------
+PackageValidator.validateManifestAgreement currently compares the embedded
+archive manifest's download SHA-256 and size to the external manifest. This is
+self-referential and cannot be authored correctly because the embedded file
+changes the containing ZIP's hash and size.
+
+Remove those two embedded-manifest comparison checks. Continue verifying the
+downloaded ZIP against the authoritative external manifest before extraction.
+
+After that correction, this repository baseline is ready for end-to-end Code
+Desk 0.1.3 package tests.

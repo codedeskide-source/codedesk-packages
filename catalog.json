@@ -1,37 +1,31 @@
 {
-    "repository": "Official Code Desk Repository",
-
-    "repositoryId": "codedesk-official",
-
-    "formatVersion": 1,
-
-    "generated": "2026-07-25T00:00:00Z",
-
-    "packages": [
-
-        {
-            "id": "codedesk.language.java",
-
-            "name": "Java Language Support",
-
-            "category": "language",
-
-            "version": "1.0.0",
-
-            "status": "stable",
-
-            "publisher": "Code Desk",
-
-            "description": "Official Java support.",
-
-            "minimumCodeDeskVersion": "0.1.3",
-
-            "packageFolder": "packages/languages/java",
-
-            "versionsFile": "packages/languages/java/versions/versions.json",
-
-            "manifest": "packages/languages/java/package.json"
-        }
-
-    ]
+  "formatVersion": 1,
+  "repositoryId": "codedesk-official",
+  "repositoryName": "Official Code Desk Package Repository",
+  "catalogVersion": "1.0.0",
+  "generatedAt": "2026-07-25T18:00:00Z",
+  "minimumCodeDeskVersion": "0.1.3",
+  "termsUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/terms/repository-terms-1.0.txt",
+  "packages": [
+    {
+      "id": "codedesk.language.java",
+      "name": "Java Language Support",
+      "description": "Repository update and recovery package for the Java support built into Code Desk.",
+      "category": "language",
+      "version": "1.0.0",
+      "required": false,
+      "securityUpdate": false,
+      "manifestUrl": "packages/languages/java/package.json",
+      "languageIds": [
+        "java"
+      ],
+      "tags": [
+        "java",
+        "jdk17",
+        "language",
+        "compiler",
+        "built-in-update"
+      ]
+    }
+  ]
 }

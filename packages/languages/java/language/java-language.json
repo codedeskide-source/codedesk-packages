@@ -1,31 +1,15 @@
 {
-    "languageId": "java",
-
-    "displayName": "Java",
-
-    "extensions": [
-        ".java"
-    ],
-
-    "fileNames": [
-        "module-info.java",
-        "package-info.java"
-    ],
-
-    "mimeType": "text/x-java",
-
-    "encoding": "UTF-8",
-
-    "compiler": "javac",
-
-    "templates": [
-        "Class.java",
-        "Interface.java",
-        "Enum.java",
-        "MainClass.java"
-    ],
-
-    "autocomplete": "java-keywords.json",
-
-    "documentation": "java-package-readme.txt"
+  "formatVersion": 1,
+  "id": "java",
+  "displayName": "Java",
+  "version": "1.0.0",
+  "builtInLanguage": true,
+  "repositoryRole": "update-and-legacy-source",
+  "extensions": [
+    ".java"
+  ],
+  "syntaxStyle": "text/java",
+  "compilerId": "javac",
+  "minimumJdkVersion": "17",
+  "description": "Repository-delivered Java language data for updating or restoring Code Desk's built-in Java support."
 }
