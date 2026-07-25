@@ -1,0 +1,73 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://codedesk.dev/schemas/package-capabilities.schema.json",
+
+    "title": "Code Desk Package Capabilities",
+
+    "type": "object",
+
+    "additionalProperties": false,
+
+    "properties": {
+
+        "languages": {
+            "type": "boolean"
+        },
+
+        "autocomplete": {
+            "type": "boolean"
+        },
+
+        "syntaxHighlighting": {
+            "type": "boolean"
+        },
+
+        "templates": {
+            "type": "boolean"
+        },
+
+        "compiler": {
+            "type": "boolean"
+        },
+
+        "formatter": {
+            "type": "boolean"
+        },
+
+        "linter": {
+            "type": "boolean"
+        },
+
+        "debugger": {
+            "type": "boolean"
+        },
+
+        "documentation": {
+            "type": "boolean"
+        },
+
+        "icons": {
+            "type": "boolean"
+        },
+
+        "themes": {
+            "type": "boolean"
+        },
+
+        "libraries": {
+            "type": "boolean"
+        },
+
+        "plugins": {
+            "type": "boolean"
+        },
+
+        "tasks": {
+            "type": "boolean"
+        },
+
+        "ai": {
+            "type": "boolean"
+        }
+    }
+}
