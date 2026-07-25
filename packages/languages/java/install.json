@@ -1,0 +1,17 @@
+{
+    "installMode": "copy",
+
+    "overwriteExisting": true,
+
+    "verifyChecksums": true,
+
+    "createDirectories": true,
+
+    "rollbackOnFailure": true,
+
+    "requiresRestart": false,
+
+    "postInstallTasks": [
+
+    ]
+}
