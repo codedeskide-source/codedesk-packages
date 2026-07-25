@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../schemas/package-permissions.schema.json",
+
+    "filesystem": true,
+
+    "network": false,
+
+    "terminal": true,
+
+    "executeProcesses": true,
+
+    "modifyProjects": false,
+
+    "modifyIDE": false,
+
+    "backgroundServices": false
+}
