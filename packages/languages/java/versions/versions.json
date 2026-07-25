@@ -1,0 +1,17 @@
+{
+    "packageId": "codedesk.language.java",
+
+    "latestStable": "1.0.0",
+
+    "latestBeta": "",
+
+    "latestDevelopment": "",
+
+    "versions": [
+        {
+            "version": "1.0.0",
+            "status": "stable",
+            "folder": "1.0.0"
+        }
+    ]
+}
