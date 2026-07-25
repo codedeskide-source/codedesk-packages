@@ -1,9 +1,66 @@
 {
+    "$schema": "../../../schemas/package-uninstall.schema.json",
+
+    "formatVersion": 1,
+
     "removeInstalledFiles": true,
 
     "removeEmptyDirectories": true,
 
     "removeConfiguration": false,
 
-    "rollbackIfFailure": true
+    "rollbackOnFailure": true,
+
+    "preUninstallTasks": [
+        {
+            "task": "disable-package",
+            "required": true,
+            "arguments": {
+                "packageId": "codedesk.language.java"
+            }
+        },
+        {
+            "task": "close-package-resources",
+            "required": true,
+            "arguments": {
+                "packageId": "codedesk.language.java"
+            }
+        }
+    ],
+
+    "postUninstallTasks": [
+        {
+            "task": "reload-languages",
+            "required": true,
+            "arguments": {
+                "languageId": "java"
+            }
+        },
+        {
+            "task": "reload-autocomplete",
+            "required": true,
+            "arguments": {
+                "languageId": "java"
+            }
+        },
+        {
+            "task": "reload-templates",
+            "required": true,
+            "arguments": {
+                "languageId": "java"
+            }
+        },
+        {
+            "task": "reload-compilers",
+            "required": true,
+            "arguments": {
+                "compilerId": "javac"
+            }
+        },
+        {
+            "task": "refresh-package-index",
+            "required": true,
+            "arguments": {}
+        }
+    ]
 }
