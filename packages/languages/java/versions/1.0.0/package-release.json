@@ -1,4 +1,6 @@
 {
+    "$schema": "../../../../../schemas/package-release.schema.json",
+
     "formatVersion": 1,
 
     "packageId": "codedesk.language.java",
@@ -11,6 +13,8 @@
 
     "minimumCodeDeskVersion": "0.1.3",
 
+    "maximumCodeDeskVersion": null,
+
     "download": "java-language-1.0.0.zip",
 
     "manifest": "../../package.json",
@@ -21,9 +25,10 @@
 
     "notes": [
         "Initial public release.",
-        "Java 17 support.",
-        "Compiler discovery.",
-        "Autocomplete.",
-        "Templates."
+        "Added Java source-file recognition.",
+        "Added Java keyword and common-type autocomplete information.",
+        "Added Java code snippets.",
+        "Added Java source templates.",
+        "Added JDK 17 compiler discovery and javac compilation support."
     ]
 }
