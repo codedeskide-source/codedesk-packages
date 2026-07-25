@@ -1,0 +1,92 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://codedesk.dev/schemas/package-uninstall.schema.json",
+
+    "title": "Code Desk Package Uninstallation Instructions",
+    "description": "Defines how Code Desk removes an installed package.",
+    "type": "object",
+    "additionalProperties": false,
+
+    "required": [
+        "formatVersion",
+        "removeInstalledFiles",
+        "removeEmptyDirectories",
+        "removeConfiguration",
+        "rollbackOnFailure",
+        "preUninstallTasks",
+        "postUninstallTasks"
+    ],
+
+    "properties": {
+        "formatVersion": {
+            "type": "integer",
+            "minimum": 1
+        },
+
+        "removeInstalledFiles": {
+            "type": "boolean"
+        },
+
+        "removeEmptyDirectories": {
+            "type": "boolean"
+        },
+
+        "removeConfiguration": {
+            "type": "boolean"
+        },
+
+        "rollbackOnFailure": {
+            "type": "boolean"
+        },
+
+        "preUninstallTasks": {
+            "$ref": "#/$defs/tasks"
+        },
+
+        "postUninstallTasks": {
+            "$ref": "#/$defs/tasks"
+        }
+    },
+
+    "$defs": {
+        "tasks": {
+            "type": "array",
+
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+
+                "required": [
+                    "task"
+                ],
+
+                "properties": {
+                    "task": {
+                        "type": "string",
+                        "enum": [
+                            "disable-package",
+                            "close-package-resources",
+                            "reload-languages",
+                            "reload-autocomplete",
+                            "reload-syntax",
+                            "reload-themes",
+                            "reload-templates",
+                            "reload-compilers",
+                            "reload-plugins",
+                            "refresh-package-index"
+                        ]
+                    },
+
+                    "required": {
+                        "type": "boolean",
+                        "default": true
+                    },
+
+                    "arguments": {
+                        "type": "object"
+                    }
+                }
+            }
+        }
+    }
+}
