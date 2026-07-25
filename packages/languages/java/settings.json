@@ -1,0 +1,45 @@
+{
+    "$schema": "../../../schemas/package-settings.schema.json",
+
+    "userConfigurable": true,
+
+    "settings": [
+
+        {
+            "id": "javaVersion",
+
+            "displayName": "Java Version",
+
+            "description": "Preferred Java compiler version.",
+
+            "type": "string",
+
+            "default": "17"
+        },
+
+        {
+            "id": "enableLint",
+
+            "displayName": "Enable Lint",
+
+            "description": "Enable javac lint warnings.",
+
+            "type": "boolean",
+
+            "default": true
+        },
+
+        {
+            "id": "compilerPath",
+
+            "displayName": "Compiler Path",
+
+            "description": "Optional manual JDK location.",
+
+            "type": "path",
+
+            "default": ""
+        }
+
+    ]
+}
