@@ -1,0 +1,98 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://codedesk.dev/schemas/package-versions.schema.json",
+
+    "title": "Code Desk Package Version Index",
+    "description": "Lists the available versions of a Code Desk package.",
+    "type": "object",
+    "additionalProperties": false,
+
+    "required": [
+        "formatVersion",
+        "packageId",
+        "latestStable",
+        "versions"
+    ],
+
+    "properties": {
+        "formatVersion": {
+            "type": "integer",
+            "minimum": 1
+        },
+
+        "packageId": {
+            "type": "string",
+            "minLength": 1
+        },
+
+        "latestStable": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+
+        "latestBeta": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+
+        "latestDevelopment": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+
+        "versions": {
+            "type": "array",
+
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+
+                "required": [
+                    "version",
+                    "status",
+                    "folder",
+                    "releaseFile"
+                ],
+
+                "properties": {
+                    "version": {
+                        "type": "string",
+                        "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[A-Za-z0-9.-]+)?$"
+                    },
+
+                    "status": {
+                        "type": "string",
+                        "enum": [
+                            "stable",
+                            "beta",
+                            "development",
+                            "deprecated",
+                            "withdrawn"
+                        ]
+                    },
+
+                    "folder": {
+                        "type": "string",
+                        "minLength": 1
+                    },
+
+                    "releaseFile": {
+                        "type": "string",
+                        "minLength": 1
+                    },
+
+                    "published": {
+                        "type": "string",
+                        "format": "date"
+                    }
+                }
+            }
+        }
+    }
+}
