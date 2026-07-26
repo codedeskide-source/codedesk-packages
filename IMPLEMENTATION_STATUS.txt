@@ -1,21 +1,23 @@
-CODE DESK SOURCE BUILD 25 REPOSITORY STATUS
+CODE DESK SOURCE BUILD 26 REPOSITORY STATUS
 ===========================================
 
 COMPLETE
 --------
 - Catalog format matches the CodeDesk 0.1.3 repository service.
-- Catalog version 1.1.0 contains ten validated packages.
+- Catalog version 1.2.0 contains ten validated packages.
 - Java 17 package 1.1.0 supplies PINF-aware javac/JAR settings, editable
   MANIFEST.MF templates, artifact metadata, templates, and autocomplete data.
 - Python, HTML, CSS, and Scripts have base/update packages.
 - Scripts cover common Windows, macOS, Linux, Android, and JavaScript types.
 - C17, C++17, and C# are optional packages with language models, project/file
-  templates, compiler commands, and diagnostic configuration.
+  templates, compiler commands, target-OS declarations, and diagnostics.
+- C# 1.1.0 includes a Windows Forms project/file starter and WinExe metadata
+  so CodeDesk creates and launches a GUI .exe without a console window.
 - Every rebuilt package archive has an authoritative byte size and SHA-256.
 - Install, update, repair, disable/enable state, and uninstall metadata remains
   available.
 - Package ZIPs contain the required package.json and payload/ layout.
-- tools/build_language_packages.py regenerates the five Build 25 language
+- tools/build_language_packages.py regenerates the five Build 26 language
   archives and repository inventory deterministically.
 - tools/validate_repository.py passes for all ten catalog packages.
 
@@ -29,4 +31,4 @@ READY FOR
 ---------
 - Upload to the GitHub repository root
 - In-IDE install/enable/disable/repair/uninstall tests
-- Build 25 compiler test-suite validation
+- Build 26 compiler test-suite validation

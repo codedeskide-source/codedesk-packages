@@ -1,18 +1,22 @@
-HOW TO UPDATE THE GITHUB REPOSITORY FOR SOURCE BUILD 25
+HOW TO UPDATE THE GITHUB REPOSITORY FOR SOURCE BUILD 26
 
 Recommended: GitHub Desktop or Git command line.
 
-1. Extract codedesk-packages-main Build 25.zip.
+1. Extract codedesk-packages-main Build 26.zip.
 2. Clone codedeskide-source/codedesk-packages.
 3. Back up or create a branch from the current repository state.
 4. Replace the tracked repository contents with every extracted item, while
    preserving the hidden .git folder.
 5. Confirm catalog.json is directly in the root.
 6. Run: python tools/validate_repository.py
-7. Commit: Update CodeDesk Build 25 language registry
+7. Commit: Update CodeDesk Build 26 language registry
 8. Push to main.
 9. Wait about one minute.
 10. Run:
    python tools/verify_github_downloads.py
 
 Uploading the ZIP itself to GitHub will not extract it.
+
+If using GitHub's web uploader, use the supplied numbered GitHub Upload Parts.
+Each part contains no more than 100 files. Extract and upload them in numerical
+order while preserving the relative paths.

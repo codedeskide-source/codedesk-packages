@@ -13,7 +13,7 @@ PACKAGES = {
     "java": "1.1.0",
     "c": "1.0.0",
     "cpp": "1.0.0",
-    "csharp": "1.0.0",
+    "csharp": "1.1.0",
     "scripts": "1.0.0",
 }
 PAYLOAD_FOLDERS = (

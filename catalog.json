@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "repositoryId": "codedesk-official",
   "repositoryName": "Official Code Desk Package Repository",
-  "catalogVersion": "1.1.0",
+  "catalogVersion": "1.2.0",
   "generatedAt": "2026-07-26T23:30:00Z",
   "minimumCodeDeskVersion": "0.1.3",
   "termsUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/terms/repository-terms-1.0.txt",
@@ -158,12 +158,12 @@
     {
       "id": "codedesk-language-csharp",
       "name": "C# Language Support",
-      "description": "Optional C# language models, templates, diagnostics, and .NET SDK compiler integration.",
+      "description": "Optional C# console and Windows GUI language models, templates, diagnostics, and .NET SDK compiler integration.",
       "category": "language",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "required": false,
       "securityUpdate": false,
-      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/csharp/versions/1.0.0/package.json",
+      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/csharp/versions/1.1.0/package.json",
       "languageIds": [
         "csharp"
       ],
@@ -171,6 +171,8 @@
         "csharp",
         "c#",
         "dotnet",
+        "winforms",
+        "windows-gui",
         "compiler",
         "optional"
       ]
