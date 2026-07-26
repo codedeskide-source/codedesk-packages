@@ -8,5 +8,6 @@
   "extensions": [".sh", ".bash", ".zsh", ".command", ".fish", ".bat", ".cmd", ".vbs", ".wsf", ".ps1", ".psm1", ".psd1", ".js", ".mjs", ".cjs", ".applescript", ".scpt", ".kts", ".lua", ".pl", ".rb"],
   "compilerId": "auto",
   "artifactType": "script",
+  "buildOperatingSystems": ["windows", "macos", "linux", "android"],
   "description": "Base script family for Windows, macOS, Linux, and Android-compatible runtimes."
 }

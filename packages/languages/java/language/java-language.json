@@ -12,7 +12,7 @@
   "syntaxStyle": "text/java",
   "compilerId": "javac",
   "minimumJdkVersion": "17",
-  "compilerId": "javac",
+  "buildOperatingSystems": ["windows", "macos", "linux"],
   "manifestTemplate": "artifact/MANIFEST.MF",
   "description": "Repository-delivered Java 17 language, compiler, editable JAR manifest, and template data for updating or restoring CodeDesk's built-in support."
 }

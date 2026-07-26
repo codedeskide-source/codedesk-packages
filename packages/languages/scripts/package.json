@@ -25,8 +25,8 @@
   "download": {
     "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/scripts/versions/1.0.0/codedesk-language-scripts-1.0.0.zip",
     "fileName": "codedesk-language-scripts-1.0.0.zip",
-    "sizeBytes": 4204,
-    "sha256": "74e910116a90603143a396c9520bc9400634474e006e59cef6fbdf0a17c35579",
+    "sizeBytes": 4235,
+    "sha256": "2e3b0652ae46b327e1244d098bfd265c6144d573749aa881a37cb7a071dae06e",
     "timeoutSeconds": 300
   },
   "installation": {

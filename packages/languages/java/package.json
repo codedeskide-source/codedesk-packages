@@ -25,8 +25,8 @@
   "download": {
     "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/java/versions/1.1.0/codedesk-language-java-1.1.0.zip",
     "fileName": "codedesk-language-java-1.1.0.zip",
-    "sizeBytes": 4220,
-    "sha256": "b0f0168abfcad7ba308e969d46a7aed57f2d77ffad53099430b8b461957d159c",
+    "sizeBytes": 4249,
+    "sha256": "b243c7f72b10317f453b243da509b91a082d2f6a7126adea295721039ac1dd84",
     "timeoutSeconds": 300
   },
   "installation": {

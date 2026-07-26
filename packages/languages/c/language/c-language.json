@@ -10,5 +10,6 @@
   "compilerId": "gcc",
   "artifactType": "native-executable",
   "defaultTarget": "c17",
+  "buildOperatingSystems": ["host"],
   "description": "Optional C language support installed through the CodeDesk GitHub registry."
 }
