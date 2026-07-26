@@ -1,0 +1,15 @@
+{
+  "formatVersion": 1,
+  "id": "dotnet",
+  "displayName": ".NET SDK",
+  "executableCandidates": ["dotnet", "dotnet.exe"],
+  "versionArguments": ["--version"],
+  "sourceExtensions": [".cs"],
+  "defaultTarget": "net8.0",
+  "artifactType": "dotnet-application",
+  "requiresExternalToolchain": true,
+  "projectInformationFile": ".codedesk/project.pinf",
+  "generatedSdkProject": ".codedesk-build/csharp/CodeDesk.Generated.csproj",
+  "buildArguments": ["publish", "${generatedProject}", "--configuration", "Release", "--output", "${artifactDirectory}", "--self-contained", "false"],
+  "diagnosticFormat": "msbuild"
+}

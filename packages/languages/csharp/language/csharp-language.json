@@ -1,0 +1,14 @@
+{
+  "formatVersion": 1,
+  "id": "csharp",
+  "displayName": "C#",
+  "version": "1.0.0",
+  "builtInLanguage": false,
+  "repositoryRole": "optional-download",
+  "extensions": [".cs"],
+  "syntaxStyle": "text/csharp",
+  "compilerId": "dotnet",
+  "artifactType": "dotnet-application",
+  "defaultTarget": "net8.0",
+  "description": "Optional C# language support installed through the CodeDesk GitHub registry."
+}

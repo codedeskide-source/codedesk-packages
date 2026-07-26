@@ -1,25 +1,165 @@
 {
-  "generatedAt": "2026-07-25T20:30:42Z",
+  "generatedAt": "2026-07-26T23:30:00Z",
   "files": [
     {
+      "path": "IMPLEMENTATION_STATUS.txt",
+      "sizeBytes": 1523,
+      "sha256": "7741ffa000884a9dd0114ad634dd51f9ee86acfe3583ff89b29529af1fd8e52b"
+    },
+    {
       "path": "README.md",
-      "sizeBytes": 458,
-      "sha256": "0da7cbfa0f03a6365ba891df821b96e49a28f24f178d65cd945d74aec06d3bd9"
+      "sizeBytes": 1328,
+      "sha256": "ab1cb9adb2d1a979ffb82625c4bc7e4392d3ab1b133cde52eb145a37bebf7f90"
     },
     {
       "path": "UPLOAD-INSTRUCTIONS.txt",
-      "sizeBytes": 591,
-      "sha256": "084058e3f881543cc7642c24d4bc52482cd96297bb22784744824f9f5e836c3a"
+      "sizeBytes": 680,
+      "sha256": "016a90277ab717c48ce4d9439069bf32edbf57bc5bd5cbe8f1dd7534c548887a"
     },
     {
       "path": "catalog.json",
-      "sizeBytes": 4265,
-      "sha256": "4ba39b8baa68875db0e999c2bd3cf19870a80c3bee0a60946825d62f3845daa5"
+      "sizeBytes": 6951,
+      "sha256": "3e393ac27fe6448f10c034db6982031d94d48c7ff92d69de6f171115bae37f0b"
     },
     {
       "path": "licenses/codedesk-package-license-1.0.txt",
       "sizeBytes": 248,
       "sha256": "d97acdbf0f08047fec4cfac2351c070234d539644609c9efd95130b9bf456457"
+    },
+    {
+      "path": "packages/languages/c/README.md",
+      "sizeBytes": 103,
+      "sha256": "be868c9fbe2b283f52686c895e56a476370d4316cc35bced0f308e0c1f3750ff"
+    },
+    {
+      "path": "packages/languages/c/compiler/gcc.json",
+      "sizeBytes": 530,
+      "sha256": "d13ae51c67c0f561ad767ed501d75b50145a945d2763407b078cf99309947ba5"
+    },
+    {
+      "path": "packages/languages/c/documentation/README.txt",
+      "sizeBytes": 94,
+      "sha256": "9a07a687bbf5fcb420cb8587318ed6ea95caf4e2804ddf6257e00f63a17424e0"
+    },
+    {
+      "path": "packages/languages/c/language/c-language.json",
+      "sizeBytes": 392,
+      "sha256": "f619038277a4e1238c243b86566aad2739ea5e3bbacd0a48f2dc432b7fd35997"
+    },
+    {
+      "path": "packages/languages/c/package.json",
+      "sizeBytes": 1547,
+      "sha256": "e2c142713f2d3ff563f295923f2d02d97bb4c034e26b7e0e7da2c0ff9becc151"
+    },
+    {
+      "path": "packages/languages/c/templates/Header.h",
+      "sizeBytes": 90,
+      "sha256": "4bafe1a56eaeb093730a4463cd34bdf932de3b7cfefa4c9435b35aa9919c21fc"
+    },
+    {
+      "path": "packages/languages/c/templates/Main.c",
+      "sizeBytes": 87,
+      "sha256": "58d9d35f62a027e6dfa10cd58572871f4c022c1591f98b529c20372a07b40b57"
+    },
+    {
+      "path": "packages/languages/c/versions/1.0.0/codedesk-language-c-1.0.0.zip",
+      "sizeBytes": 2188,
+      "sha256": "bb7a6a1e80a5ff488814204dbd264df429f9d8788a3feeea709db7fc22333613"
+    },
+    {
+      "path": "packages/languages/c/versions/1.0.0/package.json",
+      "sizeBytes": 1547,
+      "sha256": "e2c142713f2d3ff563f295923f2d02d97bb4c034e26b7e0e7da2c0ff9becc151"
+    },
+    {
+      "path": "packages/languages/cpp/README.md",
+      "sizeBytes": 100,
+      "sha256": "3982bbc9978b50fad8436c81a1bfd1692f0f2c418e6b3038fc7a0754dc1b2a6d"
+    },
+    {
+      "path": "packages/languages/cpp/compiler/gpp.json",
+      "sizeBytes": 563,
+      "sha256": "f80b76cc566aab9ec986e567968d494c7f5672d530797639dd09ded19395b56e"
+    },
+    {
+      "path": "packages/languages/cpp/documentation/README.txt",
+      "sizeBytes": 98,
+      "sha256": "3f8c59186eab54fe6bc9fa4aaf4e1468834d51e64762b6657dd77946b0466ba6"
+    },
+    {
+      "path": "packages/languages/cpp/language/cpp-language.json",
+      "sizeBytes": 427,
+      "sha256": "1f2e92ab46fa572307fff53343982426a537f56e8e297e57d7b744e5b1779046"
+    },
+    {
+      "path": "packages/languages/cpp/package.json",
+      "sizeBytes": 1565,
+      "sha256": "05758067e4be9565581baf6694890f20ad1aa169fb63db09970ab03f675d222b"
+    },
+    {
+      "path": "packages/languages/cpp/templates/Class.hpp",
+      "sizeBytes": 65,
+      "sha256": "1b7b9fc4e7dd12fec4502cf68743839d3e8366f6ee6e3b9c29968a09268f2554"
+    },
+    {
+      "path": "packages/languages/cpp/templates/Main.cpp",
+      "sizeBytes": 104,
+      "sha256": "78459e6021f0d36b31165d5bebeae9e764263960cc820ca099a0165ef0ecbe32"
+    },
+    {
+      "path": "packages/languages/cpp/versions/1.0.0/codedesk-language-cpp-1.0.0.zip",
+      "sizeBytes": 2244,
+      "sha256": "a9649b081f6225f9ac0d3f7f6635597cdafb24b4a946efe9bba8fcf9802b4826"
+    },
+    {
+      "path": "packages/languages/cpp/versions/1.0.0/package.json",
+      "sizeBytes": 1565,
+      "sha256": "05758067e4be9565581baf6694890f20ad1aa169fb63db09970ab03f675d222b"
+    },
+    {
+      "path": "packages/languages/csharp/README.md",
+      "sizeBytes": 93,
+      "sha256": "c7753cd3aa6414e9a8b4ef1fffe253bd095e957dff24b4b79d331d5a025baa44"
+    },
+    {
+      "path": "packages/languages/csharp/compiler/dotnet.json",
+      "sizeBytes": 613,
+      "sha256": "9aeecff65959d24c93cb056ec313b6c2c53de64d402a863c5dfb0d8c52ebc9c7"
+    },
+    {
+      "path": "packages/languages/csharp/documentation/README.txt",
+      "sizeBytes": 131,
+      "sha256": "14918f715ee35487e4d8a851f8b1c6060835d29635e622e1989fedc7fa466301"
+    },
+    {
+      "path": "packages/languages/csharp/language/csharp-language.json",
+      "sizeBytes": 406,
+      "sha256": "67ce518e683f47c90ef73da021b18cf9bd2b274850fad7829b75e1033516088b"
+    },
+    {
+      "path": "packages/languages/csharp/package.json",
+      "sizeBytes": 1574,
+      "sha256": "893c53a754135c2cc27fc8e074131df7491cef8d8345d9946f299b8901635605"
+    },
+    {
+      "path": "packages/languages/csharp/templates/Class.cs",
+      "sizeBytes": 40,
+      "sha256": "c0a4567f12052f1d9e677ecd7a3b83e4431c6d554e1f76601a516e021917c0e8"
+    },
+    {
+      "path": "packages/languages/csharp/templates/Program.cs",
+      "sizeBytes": 140,
+      "sha256": "1dc81885cac86c72e7c632050a67170f72f66e3efd9deec1b11a0b5e889438d0"
+    },
+    {
+      "path": "packages/languages/csharp/versions/1.0.0/codedesk-language-csharp-1.0.0.zip",
+      "sizeBytes": 2288,
+      "sha256": "44cb684d1c6329f55bf50ba4e0dce136a4ae14a020b13aec4f6edab68fffed67"
+    },
+    {
+      "path": "packages/languages/csharp/versions/1.0.0/package.json",
+      "sizeBytes": 1574,
+      "sha256": "893c53a754135c2cc27fc8e074131df7491cef8d8345d9946f299b8901635605"
     },
     {
       "path": "packages/languages/css/README.md",
@@ -62,14 +202,109 @@
       "sha256": "403b36c21cf1267ebdc851e005f03011a6b8a70c32c12196c5ff32982150ec27"
     },
     {
+      "path": "packages/languages/java/CHANGELOG.md",
+      "sizeBytes": 339,
+      "sha256": "54c0bd8036b93695a67790ca03db1e34fd3d7f5e7a6b3c7c731b327c3ee7d19f"
+    },
+    {
       "path": "packages/languages/java/README.md",
       "sizeBytes": 48,
       "sha256": "b4e1657af6351b6c13e4d2ead052e83d4dbd02444ba1cf49706c5c8a670151e5"
     },
     {
+      "path": "packages/languages/java/artifact/MANIFEST.MF",
+      "sizeBytes": 204,
+      "sha256": "a460106c135c9366267998334b432e1ccc44fc6c801595696fdab88b92524a94"
+    },
+    {
+      "path": "packages/languages/java/artifact/jar.json",
+      "sizeBytes": 390,
+      "sha256": "d674cda0ae525a01e236eba8f7a7b8b2960f2955d0f7108fd64bc78fa11722ed"
+    },
+    {
+      "path": "packages/languages/java/autocomplete/java-keywords.json",
+      "sizeBytes": 1310,
+      "sha256": "55ed2c68cf4d4bf83e1b62fd245e8dcf0e220d024ce9d0fb7c3ddc6830923835"
+    },
+    {
+      "path": "packages/languages/java/capabilities.json",
+      "sizeBytes": 318,
+      "sha256": "8e07ee0a4c79607d0ba922411d202977d7fe26230492b366f536a1f215902d02"
+    },
+    {
+      "path": "packages/languages/java/compiler/javac.json",
+      "sizeBytes": 438,
+      "sha256": "20f51feca83d5c381852fc2fca869fe5e5c229c9b242d3b1e27a9865633bafb4"
+    },
+    {
+      "path": "packages/languages/java/documentation/java-package-readme.txt",
+      "sizeBytes": 339,
+      "sha256": "11ed0582833aa00584ad3d96abf602a68d43d03fa0eb1d67ed3b6fb3253ce0eb"
+    },
+    {
+      "path": "packages/languages/java/icon.json",
+      "sizeBytes": 80,
+      "sha256": "3bbbc289538f68b779c23ac58f76be8c2967710a443df54b75536c13b09b30a6"
+    },
+    {
+      "path": "packages/languages/java/install.json",
+      "sizeBytes": 838,
+      "sha256": "ac526b1e9d0a416776c8ee704e469af9d00181bc0bf0150d2f5b162d598d0ff6"
+    },
+    {
+      "path": "packages/languages/java/language/java-language.json",
+      "sizeBytes": 534,
+      "sha256": "7d39545448b39d807164c829a9d607db5606361fab8d9ad97d0796e950e1ecc5"
+    },
+    {
+      "path": "packages/languages/java/package-signature.json",
+      "sizeBytes": 145,
+      "sha256": "b2d4f147e07b085be615927bc71a38ce86d8a544b2336860580aec5633d4f159"
+    },
+    {
       "path": "packages/languages/java/package.json",
-      "sizeBytes": 1541,
-      "sha256": "1b6557abb1e3356abaf6398963d810975821a78de807edae238aff626039be88"
+      "sizeBytes": 1566,
+      "sha256": "4a7413f7c47df42cfbca6f472d8498670fb221cbdbe3961e81ca48153554538d"
+    },
+    {
+      "path": "packages/languages/java/permissions.json",
+      "sizeBytes": 173,
+      "sha256": "870baf9cf7cbfa744c07267583f7ad3def56b67beeb8862bdbb13928c58fc9f9"
+    },
+    {
+      "path": "packages/languages/java/settings.json",
+      "sizeBytes": 580,
+      "sha256": "38d8baa091dec506fa609458b38ea8589f34102ff82d56074b71fbb12d5a5d15"
+    },
+    {
+      "path": "packages/languages/java/templates/Class.java",
+      "sizeBytes": 28,
+      "sha256": "4c6a15e238bec12f3ffe9472633b804a9d44cbee4da800d69dcc3989379bd49a"
+    },
+    {
+      "path": "packages/languages/java/templates/Enum.java",
+      "sizeBytes": 35,
+      "sha256": "41b1a2f1402cd4ff1b60c61f43b3f0fdb58359adafc47e469b709b5f05ce1fd1"
+    },
+    {
+      "path": "packages/languages/java/templates/Interface.java",
+      "sizeBytes": 36,
+      "sha256": "eee2826f036dfd433cb3753ed40c3103f6e5a9db61fae8491a660fd069554572"
+    },
+    {
+      "path": "packages/languages/java/templates/MANIFEST.MF",
+      "sizeBytes": 177,
+      "sha256": "8331f3d00b767073a2689f7a55c3e62ea66f2e3aba672ab96b93730e3d01793e"
+    },
+    {
+      "path": "packages/languages/java/templates/MainClass.java",
+      "sizeBytes": 126,
+      "sha256": "7e4463e01ec2e2b9cc7d1cee8a11be49a9400896d8c705ea48cec0492ec5015d"
+    },
+    {
+      "path": "packages/languages/java/uninstall.json",
+      "sizeBytes": 736,
+      "sha256": "64851a4883484f8faa6038a1dee9aa4a1d5db53459b1756bc617ebf296417b48"
     },
     {
       "path": "packages/languages/java/versions/1.0.0/codedesk-language-java-1.0.0.zip",
@@ -77,9 +312,34 @@
       "sha256": "adf653e748272efcb76c18ba3dbf7ede033be925e98a55377a4a07fa4dbf601f"
     },
     {
+      "path": "packages/languages/java/versions/1.0.0/java-language-1.0.0.zip",
+      "sizeBytes": 3658,
+      "sha256": "3c02a9f36f2560eb446f34d1ecbb00e9810ae6c9a89647a5fbb2da4f9e645cf6"
+    },
+    {
+      "path": "packages/languages/java/versions/1.0.0/package-release.json",
+      "sizeBytes": 612,
+      "sha256": "d17f53736e8cce9b5514bd814ffb144a421f0fd8281266a14f5ea320955ab664"
+    },
+    {
       "path": "packages/languages/java/versions/1.0.0/package.json",
       "sizeBytes": 1541,
       "sha256": "1b6557abb1e3356abaf6398963d810975821a78de807edae238aff626039be88"
+    },
+    {
+      "path": "packages/languages/java/versions/1.1.0/codedesk-language-java-1.1.0.zip",
+      "sizeBytes": 4220,
+      "sha256": "b0f0168abfcad7ba308e969d46a7aed57f2d77ffad53099430b8b461957d159c"
+    },
+    {
+      "path": "packages/languages/java/versions/1.1.0/package.json",
+      "sizeBytes": 1566,
+      "sha256": "4a7413f7c47df42cfbca6f472d8498670fb221cbdbe3961e81ca48153554538d"
+    },
+    {
+      "path": "packages/languages/java/versions/versions.json",
+      "sizeBytes": 502,
+      "sha256": "26b3879d00da792be08f226daa978ee2e5203bc7f1e677bed06579fd3dfda9f2"
     },
     {
       "path": "packages/languages/python/README.md",
@@ -100,6 +360,106 @@
       "path": "packages/languages/python/versions/1.0.0/package.json",
       "sizeBytes": 1556,
       "sha256": "1d001a62c21c2d2df021075b69279c0c93488df015c922bd49eef94ec9bf65d6"
+    },
+    {
+      "path": "packages/languages/scripts/README.md",
+      "sizeBytes": 111,
+      "sha256": "7007d36e4018dc4a28eec84659067f91bba17cfbfb66f76d2afce90a4087351e"
+    },
+    {
+      "path": "packages/languages/scripts/compiler/auto.json",
+      "sizeBytes": 702,
+      "sha256": "69f27aed515fd612b55a5dd6721680e4a2a8854f0fddaa8e01ea278f42ab5e69"
+    },
+    {
+      "path": "packages/languages/scripts/documentation/README.txt",
+      "sizeBytes": 136,
+      "sha256": "ff6c03492cee70081fd38a2d8459ec5af4f8f57f94be44ecf9a254ba5c717532"
+    },
+    {
+      "path": "packages/languages/scripts/language/scripts-language.json",
+      "sizeBytes": 512,
+      "sha256": "481ac8236eaa8f0996e5067eb869c0d188e000d56415efa1c6dfd11021ab3f36"
+    },
+    {
+      "path": "packages/languages/scripts/package.json",
+      "sizeBytes": 1588,
+      "sha256": "97a2a1d3fa16e5728e4535b37206867cfff418bd051ddcd686361c6abc63e5a4"
+    },
+    {
+      "path": "packages/languages/scripts/templates/main.applescript",
+      "sizeBytes": 38,
+      "sha256": "793d6a4ced80fb8006511a41197a4de1fee0ca7e6fb18402cb060d98e1f2ced1"
+    },
+    {
+      "path": "packages/languages/scripts/templates/main.bat",
+      "sizeBytes": 36,
+      "sha256": "045f5195614db21b5f520c1f29aead25374f5ec17220f62e4361381d9c2fdeae"
+    },
+    {
+      "path": "packages/languages/scripts/templates/main.cjs",
+      "sizeBytes": 52,
+      "sha256": "57391688d600020baf2e643cda85bdc4732ed428c1f5e0830648a56e95cb28a1"
+    },
+    {
+      "path": "packages/languages/scripts/templates/main.command",
+      "sizeBytes": 67,
+      "sha256": "310dee56f9883a9de40610087596338a70e02601ef28d86d88e3ade1f4b33f20"
+    },
+    {
+      "path": "packages/languages/scripts/templates/main.fish",
+      "sizeBytes": 49,
+      "sha256": "d1781e151c19826dc8c793a07eb5a54d38a0d54a2d40a9183cef99dbc994a434"
+    },
+    {
+      "path": "packages/languages/scripts/templates/main.js",
+      "sizeBytes": 52,
+      "sha256": "57391688d600020baf2e643cda85bdc4732ed428c1f5e0830648a56e95cb28a1"
+    },
+    {
+      "path": "packages/languages/scripts/templates/main.kts",
+      "sizeBytes": 32,
+      "sha256": "b609ae18738daa0689d4b659416f6b65a74fdfd815c29fcdfe3682f82f4d56bf"
+    },
+    {
+      "path": "packages/languages/scripts/templates/main.lua",
+      "sizeBytes": 30,
+      "sha256": "6276a4973d82bd39970b2f86c05a93aeaa77a013ef47d1826ff193e1b6eda858"
+    },
+    {
+      "path": "packages/languages/scripts/templates/main.pl",
+      "sizeBytes": 79,
+      "sha256": "68f03b07ac7578c75442dcdea3a949969ecc2b0b9ac55649d6e90b8870523044"
+    },
+    {
+      "path": "packages/languages/scripts/templates/main.ps1",
+      "sizeBytes": 68,
+      "sha256": "72647873684d5fe10a3b798802e62d9b154b3539250295e2b06a78888be411a9"
+    },
+    {
+      "path": "packages/languages/scripts/templates/main.rb",
+      "sizeBytes": 48,
+      "sha256": "f0980955ccc1a91a17cb6e17f80fcdbc32d3b05b02d59a85a1a342156404d8c6"
+    },
+    {
+      "path": "packages/languages/scripts/templates/main.sh",
+      "sizeBytes": 55,
+      "sha256": "18ed977cd811fa42d4d5f20801c99d1601da19915b0fe4c5b3043b55eaac6dec"
+    },
+    {
+      "path": "packages/languages/scripts/templates/main.vbs",
+      "sizeBytes": 36,
+      "sha256": "f006f12e47fbd5b4e94178997bfeb07a2b55009f3658e3f103dd117e01e1b05d"
+    },
+    {
+      "path": "packages/languages/scripts/versions/1.0.0/codedesk-language-scripts-1.0.0.zip",
+      "sizeBytes": 4204,
+      "sha256": "74e910116a90603143a396c9520bc9400634474e006e59cef6fbdf0a17c35579"
+    },
+    {
+      "path": "packages/languages/scripts/versions/1.0.0/package.json",
+      "sizeBytes": 1588,
+      "sha256": "97a2a1d3fa16e5728e4535b37206867cfff418bd051ddcd686361c6abc63e5a4"
     },
     {
       "path": "packages/testing/compiler-config/README.md",
@@ -172,9 +532,44 @@
       "sha256": "d2c3531aca4a8b5bdbaced30f96b5caae95eb351d740e90cfd7e2bf89e24ca9f"
     },
     {
+      "path": "schemas/package-capabilities.schema.json",
+      "sizeBytes": 1242,
+      "sha256": "ba77b79c1a22f43ea464d40b41ece19887da34a6b4fb81f04fa2b227307d3dad"
+    },
+    {
+      "path": "schemas/package-install.schema.json",
+      "sizeBytes": 2317,
+      "sha256": "4261b1b299c2fa49dbfcef836e8704797dbc65ba926ec70125e5b8b0aa0a8f7b"
+    },
+    {
       "path": "schemas/package-manifest.schema.json",
       "sizeBytes": 308,
       "sha256": "48140ad8749a702bb75a0173ca575b340bb72e4d15269a9b7453da74558deddc"
+    },
+    {
+      "path": "schemas/package-permissions.schema.json",
+      "sizeBytes": 663,
+      "sha256": "7abe8402ff9a75931fa0ae693f98e356d3f1b6fe0e7c7bf70d080818a13a3379"
+    },
+    {
+      "path": "schemas/package-release.schema.json",
+      "sizeBytes": 1972,
+      "sha256": "1dc321413e88e0365d9da10cef9c9112284d444346fcdd13b55b8c75a4ee8d3e"
+    },
+    {
+      "path": "schemas/package-settings.schema.json",
+      "sizeBytes": 1393,
+      "sha256": "0eddb52e390e9ce2f95b4ab25b616457642a61b73c3a3fd3111943de9a7585be"
+    },
+    {
+      "path": "schemas/package-uninstall.schema.json",
+      "sizeBytes": 2358,
+      "sha256": "054a2d52df0fbf1594bf05e048bf13a5e99e280f4dae17f7156a1d930e957b6c"
+    },
+    {
+      "path": "schemas/package-versions.schema.json",
+      "sizeBytes": 2386,
+      "sha256": "8d3eebcc3685032ac49984affdc81ca8032be3f27315803e06d291a46f82c51b"
     },
     {
       "path": "schemas/repository.schema.json",
@@ -185,6 +580,11 @@
       "path": "terms/repository-terms-1.0.txt",
       "sizeBytes": 308,
       "sha256": "bb00b5b8612d9a8fd5f642a525f54d0e0e53ce9ea2eff8a12b9f29c050957f18"
+    },
+    {
+      "path": "tools/build_language_packages.py",
+      "sizeBytes": 4735,
+      "sha256": "5d4afaad8069711f0188fffdfea087959a6b8e08e077b7c43b0e63cac454a6b0"
     },
     {
       "path": "tools/validate_repository.py",

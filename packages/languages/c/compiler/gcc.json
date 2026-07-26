@@ -1,0 +1,15 @@
+{
+  "formatVersion": 1,
+  "id": "gcc",
+  "displayName": "GNU C Compiler / Clang C",
+  "executableCandidates": ["gcc", "gcc.exe", "clang", "clang.exe"],
+  "versionArguments": ["--version"],
+  "sourceExtensions": [".c"],
+  "headerExtensions": [".h"],
+  "defaultTarget": "c17",
+  "artifactType": "native-executable",
+  "requiresExternalToolchain": true,
+  "projectInformationFile": ".codedesk/project.pinf",
+  "buildArguments": ["-std=${target}", "-Wall", "-Wextra", "${sources}", "-o", "${artifact}"],
+  "diagnosticFormat": "gcc"
+}

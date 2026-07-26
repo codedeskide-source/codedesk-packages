@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "scripts",
+  "displayName": "Scripts",
+  "version": "1.0.0",
+  "builtInLanguage": true,
+  "repositoryRole": "update-and-repair",
+  "extensions": [".sh", ".bash", ".zsh", ".command", ".fish", ".bat", ".cmd", ".vbs", ".wsf", ".ps1", ".psm1", ".psd1", ".js", ".mjs", ".cjs", ".applescript", ".scpt", ".kts", ".lua", ".pl", ".rb"],
+  "compilerId": "auto",
+  "artifactType": "script",
+  "description": "Base script family for Windows, macOS, Linux, and Android-compatible runtimes."
+}

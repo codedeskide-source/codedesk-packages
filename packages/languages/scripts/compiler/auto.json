@@ -1,0 +1,28 @@
+{
+  "formatVersion": 1,
+  "id": "auto",
+  "displayName": "Extension-selected Script Runtime",
+  "requiresExternalToolchain": true,
+  "projectInformationFile": ".codedesk/project.pinf",
+  "runtimeByExtension": {
+    ".sh": ["bash", "sh"],
+    ".bash": ["bash"],
+    ".zsh": ["zsh"],
+    ".command": ["bash", "sh"],
+    ".fish": ["fish"],
+    ".bat": ["cmd.exe"],
+    ".cmd": ["cmd.exe"],
+    ".vbs": ["cscript.exe"],
+    ".wsf": ["cscript.exe"],
+    ".ps1": ["pwsh", "powershell"],
+    ".js": ["node"],
+    ".mjs": ["node"],
+    ".cjs": ["node"],
+    ".applescript": ["osascript"],
+    ".scpt": ["osascript"],
+    ".kts": ["kotlinc"],
+    ".lua": ["lua"],
+    ".pl": ["perl"],
+    ".rb": ["ruby"]
+  }
+}

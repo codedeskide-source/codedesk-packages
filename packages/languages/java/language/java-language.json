@@ -1,15 +1,18 @@
 {
   "formatVersion": 1,
-  "id": "java",
-  "displayName": "Java",
-  "version": "1.0.0",
+  "id": "java17",
+  "displayName": "Java 17",
+  "version": "1.1.0",
   "builtInLanguage": true,
   "repositoryRole": "update-and-legacy-source",
   "extensions": [
-    ".java"
+    ".java",
+    ".mf"
   ],
   "syntaxStyle": "text/java",
   "compilerId": "javac",
   "minimumJdkVersion": "17",
-  "description": "Repository-delivered Java language data for updating or restoring Code Desk's built-in Java support."
+  "compilerId": "javac",
+  "manifestTemplate": "artifact/MANIFEST.MF",
+  "description": "Repository-delivered Java 17 language, compiler, editable JAR manifest, and template data for updating or restoring CodeDesk's built-in support."
 }

@@ -1,0 +1,14 @@
+{
+  "formatVersion": 1,
+  "id": "cpp",
+  "displayName": "C++",
+  "version": "1.0.0",
+  "builtInLanguage": false,
+  "repositoryRole": "optional-download",
+  "extensions": [".cpp", ".cc", ".cxx", ".hpp", ".h"],
+  "syntaxStyle": "text/cpp",
+  "compilerId": "g++",
+  "artifactType": "native-executable",
+  "defaultTarget": "c++17",
+  "description": "Optional C++ language support installed through the CodeDesk GitHub registry."
+}

@@ -1,16 +1,18 @@
-HOW TO UPDATE THE GITHUB REPOSITORY ALL AT ONCE
+HOW TO UPDATE THE GITHUB REPOSITORY FOR SOURCE BUILD 25
 
 Recommended: GitHub Desktop or Git command line.
 
-1. Extract codedesk-packages-github-ready.zip.
+1. Extract codedesk-packages-main Build 25.zip.
 2. Clone codedeskide-source/codedesk-packages.
-3. Delete the old repository contents, but do not delete the hidden .git folder.
-4. Copy every extracted item into the cloned repository root.
+3. Back up or create a branch from the current repository state.
+4. Replace the tracked repository contents with every extracted item, while
+   preserving the hidden .git folder.
 5. Confirm catalog.json is directly in the root.
-6. Commit: Populate Code Desk 0.1.3 package repository
-7. Push to main.
-8. Wait about one minute.
-9. Run:
+6. Run: python tools/validate_repository.py
+7. Commit: Update CodeDesk Build 25 language registry
+8. Push to main.
+9. Wait about one minute.
+10. Run:
    python tools/verify_github_downloads.py
 
 Uploading the ZIP itself to GitHub will not extract it.

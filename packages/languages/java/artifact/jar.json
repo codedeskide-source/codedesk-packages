@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "artifactType": "jar",
+  "projectInformationFile": ".codedesk/project.pinf",
+  "manifestFile": ".codedesk/MANIFEST.MF",
+  "manifestEditable": true,
+  "manifestErrorCheck": true,
+  "sourceRootsFromProjectInformation": true,
+  "resourceRootsFromProjectInformation": true,
+  "libraryRootsFromProjectInformation": true,
+  "excludedPathsFromProjectInformation": true
+}

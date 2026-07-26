@@ -1,0 +1,14 @@
+{
+  "formatVersion": 1,
+  "id": "c",
+  "displayName": "C",
+  "version": "1.0.0",
+  "builtInLanguage": false,
+  "repositoryRole": "optional-download",
+  "extensions": [".c", ".h"],
+  "syntaxStyle": "text/c",
+  "compilerId": "gcc",
+  "artifactType": "native-executable",
+  "defaultTarget": "c17",
+  "description": "Optional C language support installed through the CodeDesk GitHub registry."
+}

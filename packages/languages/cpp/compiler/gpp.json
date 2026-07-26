@@ -1,0 +1,15 @@
+{
+  "formatVersion": 1,
+  "id": "g++",
+  "displayName": "GNU C++ Compiler / Clang++",
+  "executableCandidates": ["g++", "g++.exe", "clang++", "clang++.exe"],
+  "versionArguments": ["--version"],
+  "sourceExtensions": [".cpp", ".cc", ".cxx"],
+  "headerExtensions": [".hpp", ".h"],
+  "defaultTarget": "c++17",
+  "artifactType": "native-executable",
+  "requiresExternalToolchain": true,
+  "projectInformationFile": ".codedesk/project.pinf",
+  "buildArguments": ["-std=${target}", "-Wall", "-Wextra", "${sources}", "-o", "${artifact}"],
+  "diagnosticFormat": "gcc"
+}

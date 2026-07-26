@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: codedesk.build.GeneratedJarLauncher
+CodeDesk-App-Main: ${MAIN_CLASS}
+Implementation-Title: ${PROJECT_NAME}
+Implementation-Version: ${VERSION}
+Created-By: CodeDesk 0.1.3
+

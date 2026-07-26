@@ -1,10 +1,17 @@
 {
   "formatVersion": 1,
   "packageId": "codedesk.language.java",
-  "latestStable": "1.0.0",
+  "latestStable": "1.1.0",
   "latestBeta": null,
   "latestDevelopment": null,
   "versions": [
+    {
+      "version": "1.1.0",
+      "status": "stable",
+      "folder": "1.1.0",
+      "releaseFile": "1.1.0/package.json",
+      "published": "2026-07-26"
+    },
     {
       "version": "1.0.0",
       "status": "stable",

@@ -10,6 +10,10 @@
   "sourceExtensions": [
     ".java"
   ],
+  "projectInformation": ".codedesk/project.pinf",
+  "manifestFile": ".codedesk/MANIFEST.MF",
+  "artifactType": "jar",
+  "target": "17",
   "defaultArguments": [
     "-encoding",
     "UTF-8"

@@ -1,10 +1,10 @@
 {
   "formatVersion": 1,
-  "id": "codedesk-language-java",
-  "name": "Java 17 Language Support",
+  "id": "codedesk-language-c",
+  "name": "C Language Support",
   "publisher": "Code Desk",
-  "version": "1.1.0",
-  "description": "Java 17 metadata, templates, editable MANIFEST.MF support, autocomplete data, and JDK compiler integration.",
+  "version": "1.0.0",
+  "description": "Optional C17 language models, templates, diagnostics, and GCC or Clang compiler integration.",
   "category": "language",
   "required": false,
   "compatibility": {
@@ -23,14 +23,14 @@
     ]
   },
   "download": {
-    "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/java/versions/1.1.0/codedesk-language-java-1.1.0.zip",
-    "fileName": "codedesk-language-java-1.1.0.zip",
-    "sizeBytes": 4220,
-    "sha256": "b0f0168abfcad7ba308e969d46a7aed57f2d77ffad53099430b8b461957d159c",
+    "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/c/versions/1.0.0/codedesk-language-c-1.0.0.zip",
+    "fileName": "codedesk-language-c-1.0.0.zip",
+    "sizeBytes": 2188,
+    "sha256": "bb7a6a1e80a5ff488814204dbd264df429f9d8788a3feeea709db7fc22333613",
     "timeoutSeconds": 300
   },
   "installation": {
-    "destination": "packages/languages/java",
+    "destination": "packages/languages/c",
     "requiresRestart": true,
     "canRepair": true,
     "canUpdate": true,
@@ -41,7 +41,7 @@
   "permissions": [
     {
       "id": "write-package-files",
-      "description": "Install files under packages/languages/java."
+      "description": "Install C language definition and compiler integration files."
     }
   ],
   "license": {
