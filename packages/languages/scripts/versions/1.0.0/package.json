@@ -1,0 +1,53 @@
+{
+  "formatVersion": 1,
+  "id": "codedesk-language-scripts",
+  "name": "Scripts Language Support",
+  "publisher": "Code Desk",
+  "version": "1.0.0",
+  "description": "Cross-platform Windows, macOS, Linux, Android, and JavaScript script templates and runtime integration.",
+  "category": "language",
+  "required": false,
+  "compatibility": {
+    "minimumCodeDeskVersion": "0.1.3",
+    "maximumCodeDeskVersion": "0.1.99",
+    "operatingSystems": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "architectures": [
+      "x86_64",
+      "amd64",
+      "aarch64",
+      "arm64"
+    ]
+  },
+  "download": {
+    "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/scripts/versions/1.0.0/codedesk-language-scripts-1.0.0.zip",
+    "fileName": "codedesk-language-scripts-1.0.0.zip",
+    "sizeBytes": 4204,
+    "sha256": "74e910116a90603143a396c9520bc9400634474e006e59cef6fbdf0a17c35579",
+    "timeoutSeconds": 300
+  },
+  "installation": {
+    "destination": "packages/languages/scripts",
+    "requiresRestart": true,
+    "canRepair": true,
+    "canUpdate": true,
+    "canUninstall": true,
+    "canDisable": true
+  },
+  "dependencies": [],
+  "permissions": [
+    {
+      "id": "write-package-files",
+      "description": "Install base script language definitions and templates."
+    }
+  ],
+  "license": {
+    "name": "Code Desk Package License",
+    "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/licenses/codedesk-package-license-1.0.txt",
+    "version": "1.0",
+    "acceptanceRequired": false
+  }
+}
