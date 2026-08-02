@@ -3,8 +3,8 @@
   "id": "codedesk-language-java",
   "name": "Java 17 Language Support",
   "publisher": "Code Desk",
-  "version": "1.2.0",
-  "description": "Java 17 language-version metadata, javac/JDK compatibility constraints, templates, editable MANIFEST.MF support, and runtime restrictions.",
+  "version": "1.1.1",
+  "description": "Java 17 metadata, templates, editable MANIFEST.MF support, autocomplete data, and corrected JDK compiler integration metadata.",
   "category": "language",
   "required": false,
   "compatibility": {
@@ -23,15 +23,15 @@
     ]
   },
   "download": {
-    "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/java/versions/1.2.0/codedesk-language-java-1.2.0.zip",
-    "fileName": "codedesk-language-java-1.2.0.zip",
-    "sizeBytes": 4420,
-    "sha256": "13dd72968bc492fbd7ea6d3fe038eca6c17321361a4d7514bd61f8fabcc4ab4c",
+    "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/java/versions/1.1.1/codedesk-language-java-1.1.1.zip",
+    "fileName": "codedesk-language-java-1.1.1.zip",
+    "sizeBytes": 4256,
+    "sha256": "63344599cd33e551cbd38f7781a5b53192c9105f6637c617e86555848f09b5fd",
     "timeoutSeconds": 300
   },
   "installation": {
-    "destination": "packages/languages/java17",
-    "requiresRestart": false,
+    "destination": "packages/languages/java",
+    "requiresRestart": true,
     "canRepair": true,
     "canUpdate": true,
     "canUninstall": true,
@@ -41,7 +41,7 @@
   "permissions": [
     {
       "id": "write-package-files",
-      "description": "Install files under packages/languages/java17."
+      "description": "Install files under packages/languages/java."
     }
   ],
   "license": {

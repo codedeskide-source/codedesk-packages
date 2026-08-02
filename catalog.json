@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "repositoryId": "codedesk-official",
   "repositoryName": "Official Code Desk Package Repository",
-  "catalogVersion": "1.4.0",
+  "catalogVersion": "1.5.0",
   "generatedAt": "2026-08-01T12:00:00Z",
   "minimumCodeDeskVersion": "0.1.3",
   "termsUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/terms/repository-terms-1.0.txt",
@@ -16,18 +16,31 @@
       "required": false,
       "securityUpdate": false,
       "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/assets/3d-viewers/versions/1.1.0/package.json",
-      "languageIds": ["mixed"],
-      "tags": ["3d", "model", "skeleton", "animation", "skin", "texture", "grayscale", "tint", "viewer", "optional"]
+      "languageIds": [
+        "mixed"
+      ],
+      "tags": [
+        "3d",
+        "model",
+        "skeleton",
+        "animation",
+        "skin",
+        "texture",
+        "grayscale",
+        "tint",
+        "viewer",
+        "optional"
+      ]
     },
     {
       "id": "codedesk-language-java",
       "name": "Java 17 Language Support",
-      "description": "Java 17 metadata, templates, editable MANIFEST.MF support, autocomplete data, and corrected JDK compiler integration metadata.",
+      "description": "Java 17 language-version metadata, javac/JDK compatibility constraints, templates, editable MANIFEST.MF support, and runtime restrictions.",
       "category": "language",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "required": false,
       "securityUpdate": false,
-      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/java/versions/1.1.1/package.json",
+      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/java/versions/1.2.0/package.json",
       "languageIds": [
         "java17"
       ],
@@ -38,7 +51,9 @@
         "compiler",
         "templates",
         "autocomplete",
-        "manifest"
+        "manifest",
+        "version-constraints",
+        "runtime-detection"
       ]
     },
     {

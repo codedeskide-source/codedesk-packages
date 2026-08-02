@@ -9,14 +9,14 @@
       "task": "disable-package",
       "required": true,
       "arguments": {
-        "packageId": "codedesk.language.java"
+        "packageId": "codedesk-language-java"
       }
     },
     {
       "task": "close-package-resources",
       "required": true,
       "arguments": {
-        "packageId": "codedesk.language.java"
+        "packageId": "codedesk-language-java"
       }
     }
   ],
@@ -25,7 +25,7 @@
       "task": "reload-languages",
       "required": true,
       "arguments": {
-        "languageId": "java"
+        "languageId": "java17"
       }
     },
     {

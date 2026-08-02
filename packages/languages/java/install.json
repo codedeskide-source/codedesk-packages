@@ -11,21 +11,21 @@
       "task": "reload-languages",
       "required": true,
       "arguments": {
-        "languageId": "java"
+        "languageId": "java17"
       }
     },
     {
       "task": "reload-autocomplete",
       "required": true,
       "arguments": {
-        "languageId": "java"
+        "languageId": "java17"
       }
     },
     {
       "task": "reload-templates",
       "required": true,
       "arguments": {
-        "languageId": "java"
+        "languageId": "java17"
       }
     },
     {

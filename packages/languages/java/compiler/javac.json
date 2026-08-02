@@ -7,6 +7,13 @@
     "javac.exe"
   ],
   "minimumVersion": "17",
+  "maximumVersion": "99",
+  "compilerFamily": "javac",
+  "languageFamily": "java",
+  "supportedLanguageVersions": ["17"],
+  "sourceRelease": "17",
+  "targetRelease": "17",
+  "releaseArgument": "--release",
   "sourceExtensions": [
     ".java"
   ],

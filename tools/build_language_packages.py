@@ -10,7 +10,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 ZERO_SHA = "0" * 64
 PACKAGES = {
-    "java": "1.1.0",
+    "java": "1.2.0",
     "c": "1.0.0",
     "cpp": "1.0.0",
     "csharp": "1.1.0",
