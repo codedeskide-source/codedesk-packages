@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "id": "codedesk-resource-3d-viewers",
-  "name": "CodeDesk 3D Viewers",
+  "name": "CodeDesk 3D Viewers 1.0.1",
   "capabilities": [
     {"id": "model-viewer", "extensions": [".obj", ".gltf", ".glb", ".cdmodel"]},
     {"id": "skeleton-viewer", "extensions": [".cdskel"]},

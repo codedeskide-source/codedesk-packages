@@ -7,7 +7,7 @@
   "loop": true,
   "tracks": [{
     "id": "tip-sway",
-    "target": "root",
+    "target": "body",
     "property": "rotation",
     "interpolation": "linear",
     "keys": [
