@@ -1,0 +1,9 @@
+{
+  "format": "codedesk-skeleton",
+  "version": 1,
+  "bones": [
+    {"id": "root", "parent": null, "translation": [0,0,0], "rotation": [0,0,0,1], "scale": [1,1,1]},
+    {"id": "tip", "parent": "root", "translation": [0,1,0], "rotation": [0,0,0,1], "scale": [1,1,1]}
+  ],
+  "sockets": []
+}

@@ -1,0 +1,19 @@
+{
+  "format": "codedesk-animation",
+  "version": 1,
+  "model": "Placeholder.cdmodel",
+  "skeleton": "Placeholder.cdskel",
+  "duration": 1.0,
+  "loop": true,
+  "tracks": [{
+    "id": "tip-sway",
+    "target": "root",
+    "property": "rotation",
+    "interpolation": "linear",
+    "keys": [
+      {"time": 0.0, "value": [0,0,0,1]},
+      {"time": 0.5, "value": [0,0,0.3826834,0.9238795]},
+      {"time": 1.0, "value": [0,0,0,1]}
+    ]
+  }]
+}
