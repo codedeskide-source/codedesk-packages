@@ -3,6 +3,7 @@
   "version": 1,
   "units": "meters",
   "coordinateSystem": "right-handed-y-up",
+  "skin": "Placeholder.cdskin",
   "skeleton": "Placeholder.cdskel",
   "parts": [{
     "id": "body",
@@ -10,6 +11,8 @@
     "translation": [0, 0, 0],
     "rotation": [0, 0, 0, 1],
     "scale": [1, 1, 1],
+    "material": "placeholder",
+    "uvs": [[0,0], [1,0], [0.5,1]],
     "vertices": [[-0.5,0,0], [0.5,0,0], [0,1,0]],
     "faces": [[0,1,2]],
     "sockets": []

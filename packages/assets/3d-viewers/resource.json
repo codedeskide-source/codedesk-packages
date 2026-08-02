@@ -1,11 +1,12 @@
 {
   "formatVersion": 1,
   "id": "codedesk-resource-3d-viewers",
-  "name": "CodeDesk 3D Viewers 1.0.1",
+  "name": "CodeDesk 3D Viewers 1.1.0",
   "capabilities": [
     {"id": "model-viewer", "extensions": [".obj", ".gltf", ".glb", ".cdmodel"]},
     {"id": "skeleton-viewer", "extensions": [".cdskel"]},
-    {"id": "animation-viewer", "extensions": [".cdanim"]}
+    {"id": "animation-viewer", "extensions": [".cdanim"]},
+    {"id": "skin-texture-viewer", "extensions": [".cdskin", ".png", ".jpg", ".jpeg"]}
   ],
   "editors": [],
   "requiresRestart": true

@@ -1,0 +1,12 @@
+{
+  "format": "codedesk-skin",
+  "version": 1,
+  "model": "Placeholder.cdmodel",
+  "materials": {
+    "placeholder": {
+      "texture": "Placeholder-grayscale.png",
+      "tint": "#4C9AD4",
+      "grayscaleTint": true
+    }
+  }
+}
