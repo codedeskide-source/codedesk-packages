@@ -13,7 +13,18 @@
   "requiresExternalToolchain": true,
   "projectInformationFile": ".codedesk/project.pinf",
   "generatedFiles": {
-    ".codedesk-build/package/CodeDesk.Generated.csproj": "<Project Sdk=\"Microsoft.NET.Sdk\">\n  <PropertyGroup>\n    <OutputType>Exe</OutputType>\n    <TargetFramework>${target}</TargetFramework>\n    <AssemblyName>${artifactName}</AssemblyName>\n    <Version>${version}</Version>\n    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>\n    <ImplicitUsings>enable</ImplicitUsings>\n    <Nullable>enable</Nullable>\n  </PropertyGroup>\n  <ItemGroup>\n${sourceItems}  </ItemGroup>\n</Project>\n"
+    ".codedesk-build/package/CodeDesk.Generated.csproj": "<Project Sdk=\"Microsoft.NET.Sdk\">\n  <PropertyGroup>\n    <OutputType>${outputType}</OutputType>\n    <TargetFramework>${target}</TargetFramework>\n    <AssemblyName>${artifactName}</AssemblyName>\n    <Version>${version}</Version>\n    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>\n    <ImplicitUsings>enable</ImplicitUsings>\n    <Nullable>enable</Nullable>\n${platformProperties}  </PropertyGroup>\n  <ItemGroup>\n${sourceItems}  </ItemGroup>\n</Project>\n"
+  },
+  "profiles": {
+    "dotnet-application": {
+      "outputType": "Exe",
+      "platformProperties": ""
+    },
+    "dotnet-windows-application": {
+      "target": "net8.0-windows",
+      "outputType": "WinExe",
+      "platformProperties": "    <EnableWindowsTargeting>true</EnableWindowsTargeting>\n    <UseWindowsForms>true</UseWindowsForms>\n"
+    }
   },
   "repeatedSourceTemplate": "    <Compile Include=\"${sourceXml}\" />\n",
   "buildArguments": ["publish", "${generatedProject}", "--configuration", "Release", "--output", "${artifactDirectory}", "--self-contained", "false"],

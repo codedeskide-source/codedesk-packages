@@ -25,8 +25,8 @@
   "download": {
     "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/csharp/versions/1.1.0/codedesk-language-csharp-1.1.0.zip",
     "fileName": "codedesk-language-csharp-1.1.0.zip",
-    "sizeBytes": 3223,
-    "sha256": "cb725dc4d37d41793a182d6806fb77ce7a64987411039e000404d27dcbb63bdb",
+    "sizeBytes": 2972,
+    "sha256": "4d96bad014ca2d03db41b10cf9348360f7769094c5d1b63d87fcced11bf48e56",
     "timeoutSeconds": 300
   },
   "installation": {

@@ -1,0 +1,15 @@
+{
+  "formatVersion": 1,
+  "id": "csharp-console",
+  "displayName": "Console Application",
+  "description": "Cross-platform .NET console application supplied by the C# package.",
+  "compilerId": "dotnet",
+  "mainFile": "src/Program.cs",
+  "mainClass": "Program",
+  "artifactType": "dotnet-application",
+  "target": "net8.0",
+  "operatingSystems": ["windows", "macos", "linux"],
+  "files": {
+    "src/Program.cs": "templates/Program.cs"
+  }
+}

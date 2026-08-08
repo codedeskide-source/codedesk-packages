@@ -145,10 +145,10 @@
       "name": "C Language Support",
       "description": "Optional C17 language models, templates, diagnostics, and GCC or Clang compiler integration.",
       "category": "language",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "required": false,
       "securityUpdate": false,
-      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/c/versions/1.0.0/package.json",
+      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/c/versions/1.1.0/package.json",
       "languageIds": [
         "c"
       ],
@@ -166,10 +166,10 @@
       "name": "C++ Language Support",
       "description": "Optional C++17 language models, templates, diagnostics, and G++ or Clang++ compiler integration.",
       "category": "language",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "required": false,
       "securityUpdate": false,
-      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/cpp/versions/1.0.0/package.json",
+      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/cpp/versions/1.1.0/package.json",
       "languageIds": [
         "cpp"
       ],
@@ -187,10 +187,10 @@
       "name": "C# Language Support",
       "description": "Optional C# console and Windows GUI language models, templates, diagnostics, and .NET SDK compiler integration.",
       "category": "language",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "required": false,
       "securityUpdate": false,
-      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/csharp/versions/1.1.0/package.json",
+      "manifestUrl": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/csharp/versions/1.2.0/package.json",
       "languageIds": [
         "csharp"
       ],

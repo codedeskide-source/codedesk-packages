@@ -1,0 +1,4 @@
+{"formatVersion":1,"languageId":"csharp","rules":[
+  {"id":"csharp-thread-abort","pattern":"\\.Abort\\s*\\(","severity":"warning","message":"Thread.Abort is unsupported on modern .NET; use cancellation tokens."},
+  {"id":"csharp-console-gui","pattern":"Console\\.(Write|WriteLine)\\s*\\(","severity":"info","message":"Console output is not visible in a WinExe project; use logging or a GUI status control."}
+]}

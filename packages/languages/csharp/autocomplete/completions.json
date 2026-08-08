@@ -1,0 +1,6 @@
+{"formatVersion":1,"languageId":"csharp","entries":[
+  {"input":"public","kind":"keyword","summary":"Access modifier","description":"Makes a member accessible from other code."},
+  {"input":"namespace","kind":"keyword","summary":"Namespace","description":"Groups related .NET types."},
+  {"input":"Main","kind":"snippet","replacement":"static void Main(string[] args) {\n    \n}","description":"C# application entry point."},
+  {"input":"Console.WriteLine","kind":"library","summary":"Console output","description":"Writes a line through System.Console."}
+]}

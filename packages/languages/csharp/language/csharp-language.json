@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "id": "csharp",
   "displayName": "C#",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "builtInLanguage": false,
   "repositoryRole": "optional-download",
   "extensions": [".cs"],

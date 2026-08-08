@@ -1,0 +1,15 @@
+{
+  "formatVersion": 1,
+  "id": "csharp-windows-forms",
+  "displayName": "Windows Forms Application",
+  "description": "Windows GUI application using the package-owned WinForms starter and build profile.",
+  "compilerId": "dotnet",
+  "mainFile": "src/Program.cs",
+  "mainClass": "Program",
+  "artifactType": "dotnet-windows-application",
+  "target": "net8.0-windows",
+  "operatingSystems": ["windows"],
+  "files": {
+    "src/Program.cs": "templates/WindowsFormProgram.cs"
+  }
+}

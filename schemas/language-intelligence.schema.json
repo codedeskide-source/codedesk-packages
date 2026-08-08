@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CodeDesk Language Intelligence",
+  "type": "object",
+  "required": ["formatVersion", "languageId", "entries"],
+  "properties": {
+    "formatVersion": {"const": 1},
+    "languageId": {"type": "string", "minLength": 1},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["input", "kind"],
+        "properties": {
+          "input": {"type": "string", "minLength": 1},
+          "replacement": {"type": "string"},
+          "kind": {"enum": ["keyword", "symbol", "snippet", "library"]},
+          "summary": {"type": "string"},
+          "description": {"type": "string"}
+        }
+      }
+    }
+  }
+}
