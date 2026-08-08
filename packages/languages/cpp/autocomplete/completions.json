@@ -1,0 +1,6 @@
+{"formatVersion":1,"languageId":"cpp","entries":[
+  {"input":"class","kind":"keyword","summary":"Class declaration","description":"Declares a C++ class."},
+  {"input":"namespace","kind":"keyword","summary":"Namespace","description":"Groups names and prevents collisions."},
+  {"input":"main","kind":"snippet","replacement":"int main() {\n    \n    return 0;\n}","description":"C++ program entry point."},
+  {"input":"std::vector","kind":"library","summary":"Dynamic array","description":"Standard-library contiguous sequence container."}
+]}

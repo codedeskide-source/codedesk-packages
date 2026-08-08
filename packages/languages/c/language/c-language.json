@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "id": "c",
   "displayName": "C",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "builtInLanguage": false,
   "repositoryRole": "optional-download",
   "extensions": [".c", ".h"],

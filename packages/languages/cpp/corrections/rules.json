@@ -1,0 +1,4 @@
+{"formatVersion":1,"languageId":"cpp","rules":[
+  {"id":"cpp-null-macro","pattern":"\\bNULL\\b","severity":"warning","message":"Prefer nullptr in modern C++ for type-safe null pointers.","replacement":"nullptr"},
+  {"id":"cpp-using-namespace-header","pattern":"using\\s+namespace\\s+std\\s*;","severity":"warning","message":"Avoid a global using-directive in headers; qualify names with std::."}
+]}

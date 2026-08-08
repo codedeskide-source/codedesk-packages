@@ -1,0 +1,6 @@
+{"formatVersion":1,"languageId":"c","entries":[
+  {"input":"int","kind":"keyword","summary":"Integer type","description":"Declares a signed integer."},
+  {"input":"struct","kind":"keyword","summary":"Structure","description":"Declares a grouped data type."},
+  {"input":"main","kind":"snippet","replacement":"int main(void) {\n    \n    return 0;\n}","description":"C program entry point."},
+  {"input":"printf","kind":"library","summary":"stdio output","description":"Writes formatted output; declared by <stdio.h>."}
+]}

@@ -1,0 +1,1 @@
+{"formatVersion":1,"languageId":"cpp","libraries":["cpp-standard-library","sdl2","sfml","raylib","glm","vulkan","opengl"]}

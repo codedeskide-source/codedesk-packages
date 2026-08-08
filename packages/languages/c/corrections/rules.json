@@ -1,0 +1,4 @@
+{"formatVersion":1,"languageId":"c","rules":[
+  {"id":"c-unsafe-gets","pattern":"\\bgets\\s*\\(","severity":"error","message":"gets is unsafe and was removed from C11; use fgets with a size limit.","replacement":"fgets("},
+  {"id":"c-main-void","pattern":"\\bvoid\\s+main\\s*\\(","severity":"warning","message":"Portable hosted C programs should return int from main.","replacement":"int main("}
+]}
