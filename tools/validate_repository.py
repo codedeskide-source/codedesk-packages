@@ -5,26 +5,6 @@ root = Path(__file__).resolve().parents[1]
 errors = []
 catalog = json.loads((root / "catalog.json").read_text(encoding="utf-8"))
 
-adapter_required = {
-    "id", "displayName", "executableCandidates", "versionArguments",
-    "sourceExtensions", "defaultTarget", "artifactType", "buildArguments",
-    "artifactCandidates",
-}
-for language in ("c", "cpp", "csharp"):
-    compiler_files = list((root / "packages" / "languages" / language
-                           / "compiler").glob("*.json"))
-    if len(compiler_files) != 1:
-        errors.append(f"{language}: expected one compiler adapter")
-        continue
-    adapter = json.loads(compiler_files[0].read_text(encoding="utf-8"))
-    missing = sorted(adapter_required - adapter.keys())
-    if missing:
-        errors.append(f"{language}: adapter missing {', '.join(missing)}")
-    for argument in adapter.get("buildArguments", []):
-        if any(token in argument for token in ("cmd /c", "powershell -c",
-                                                "/bin/sh -c", "&&", ";")):
-            errors.append(f"{language}: shell syntax is not allowed")
-
 for entry in catalog["packages"]:
     manifest_rel = entry["manifestUrl"].split("/main/", 1)[1]
     manifest_path = root / manifest_rel

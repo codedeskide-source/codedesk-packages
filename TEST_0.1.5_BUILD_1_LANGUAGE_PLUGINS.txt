@@ -1,0 +1,29 @@
+CODEDESK 0.1.5 SOURCE BUILD 1 TEST CHECKLIST
+============================================================
+
+1. Install C 1.1.0, C++ 1.1.0, and C# 1.2.0 from Package Repository.
+2. Open .c, .cpp, and .cs files. Confirm syntax color is active.
+3. Press Ctrl+Space in each file. Confirm language-specific entries appear.
+   Examples: printf, std::vector, Console.WriteLine.
+4. Type a known correction case and run Error Check:
+   C: gets(buffer);
+   C++: void *p = NULL;
+   C#: thread.Abort();
+   Confirm the package-named diagnostic appears in Problems.
+5. Disable one package without closing its editor. Confirm the open tab falls
+   back to plain text and its package completions disappear.
+6. Re-enable it. Confirm syntax and completions return without reopening.
+7. Uninstall it and restart CodeDesk. Confirm its New menu and New Project
+   language entry are absent; existing source remains editable as plain text.
+8. Reinstall it. Confirm package behavior returns.
+9. Disconnect from the network and restart. Confirm installed/enabled package
+   intelligence still works from the local installed-package database.
+10. Repair each package and repeat steps 2-4.
+
+Expected safety behavior
+------------------------
+- Disabling/uninstalling never deletes project source.
+- A malformed optional rule cannot crash Error Check.
+- Files not listed in an installed package record are never loaded as language
+  intelligence.
+- Build/Run remains blocked when its required package is unavailable.

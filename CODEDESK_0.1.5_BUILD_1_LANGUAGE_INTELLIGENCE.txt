@@ -1,0 +1,48 @@
+CODEDESK 0.1.5 SOURCE BUILD 1
+LANGUAGE PLUGIN / INTELLIGENCE FOUNDATION
+============================================================
+
+Purpose
+-------
+Optional-language knowledge now belongs to the installed GitHub package.
+CodeDesk Core supplies safe generic loaders and UI/diagnostic engines only.
+
+Package-owned sections
+----------------------
+language/       Identity, extensions, syntax style, version and compatibility
+compiler/       Toolchain identity and constraints
+build/          Build-adapter data (reserved for the next executor stage)
+templates/      New-file templates
+project-templates/ New-project templates (reserved contract)
+autocomplete/   Keywords, symbols, snippets and library completions
+corrections/    Declarative regex correction/diagnostic rules
+learning/       Learning topics and future lesson/index metadata
+libraries/      Language-scoped library catalog and future symbol models
+diagnostics/    Package validation/compiler-parser data (reserved contract)
+documentation/  User and AI-facing language documentation
+
+Implemented in Source Build 1
+-----------------------------
+- Enabled packages are the only source for optional-language intelligence.
+- C/C++/C# autocomplete is loaded from installed package files.
+- Package disable/uninstall refreshes open tabs and removes those completions.
+- Package correction rules feed the normal Problems pipeline.
+- Optional C/C++/C# New-file definitions no longer live in CoreFileTypes.
+- Optional C/C++/C# starter source no longer lives in ProjectTemplateRegistry.
+- Optional syntax extensions and styles are resolved through package metadata.
+- Package file paths are restricted to the CodeDesk data folder and installed
+  package database, so arbitrary files are not treated as plugin knowledge.
+
+Deliberately remaining for later 0.1.5 builds
+---------------------------------------------
+- Replace the remaining C/C++/C# BuildRunManager branches with one generic,
+  declarative and permission-checked build adapter executor.
+- Load full project templates from project-templates/ metadata.
+- Index project symbols and installed library symbol catalogs.
+- Add learning UI, progress, opt-in local adaptation, and data controls.
+- Validate intelligence JSON against the shipped schema before installation.
+
+The learning system must not silently train from private projects. Initial
+learning support is curated package knowledge plus local project indexing.
+Any future telemetry, cloud training, or shared learning requires explicit
+consent, visibility, deletion controls, and a separate security review.

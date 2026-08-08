@@ -11,9 +11,9 @@ ROOT = Path(__file__).resolve().parents[1]
 ZERO_SHA = "0" * 64
 PACKAGES = {
     "java": "1.2.0",
-    "c": "1.0.0",
-    "cpp": "1.0.0",
-    "csharp": "1.1.0",
+    "c": "1.1.0",
+    "cpp": "1.1.0",
+    "csharp": "1.2.0",
     "scripts": "1.0.0",
 }
 PAYLOAD_FOLDERS = (
@@ -23,6 +23,12 @@ PAYLOAD_FOLDERS = (
     "artifact",
     "autocomplete",
     "documentation",
+    "learning",
+    "corrections",
+    "libraries",
+    "diagnostics",
+    "build",
+    "project-templates",
 )
 
 
@@ -55,6 +61,8 @@ def build_package(language: str, version: str) -> tuple[str, str, int]:
             f"{root_manifest_path} declares {manifest['version']}, expected {version}"
         )
 
+    if not version_manifest_path.exists():
+        write_json(version_manifest_path, deepcopy(manifest))
     archive_name = manifest["download"]["fileName"]
     archive_path = version_manifest_path.parent / archive_name
     archive_path.parent.mkdir(parents=True, exist_ok=True)
