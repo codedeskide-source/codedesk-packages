@@ -6,10 +6,13 @@
   "versionArguments": ["--version"],
   "sourceExtensions": [".cpp", ".cc", ".cxx"],
   "headerExtensions": [".hpp", ".h"],
+  "libraryExtensions": [".a", ".so", ".dylib", ".lib"],
   "defaultTarget": "c++17",
   "artifactType": "native-executable",
   "requiresExternalToolchain": true,
   "projectInformationFile": ".codedesk/project.pinf",
-  "buildArguments": ["-std=${target}", "-Wall", "-Wextra", "${sources}", "-o", "${artifact}"],
+  "buildArguments": ["-std=${target}", "-Wall", "-Wextra", "${sources}", "-o", "${artifactDirectory}/${artifactName}${executableSuffix}"],
+  "artifactCandidates": ["${artifactDirectory}/${artifactName}${executableSuffix}"],
+  "runArguments": [],
   "diagnosticFormat": "gcc"
 }

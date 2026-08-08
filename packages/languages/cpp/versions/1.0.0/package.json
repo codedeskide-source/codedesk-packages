@@ -25,8 +25,8 @@
   "download": {
     "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/cpp/versions/1.0.0/codedesk-language-cpp-1.0.0.zip",
     "fileName": "codedesk-language-cpp-1.0.0.zip",
-    "sizeBytes": 2262,
-    "sha256": "b924ce117c9f45edf729ce9eb5ebf4584ce2293652a8b94dba0a51a872299722",
+    "sizeBytes": 2317,
+    "sha256": "ba9b55d4eda35794cf5fb29f83fbcc3b8205e6f1d73366b68e1beaee64f1655e",
     "timeoutSeconds": 300
   },
   "installation": {
