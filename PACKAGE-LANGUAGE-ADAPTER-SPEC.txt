@@ -1,0 +1,56 @@
+CodeDesk package language/build adapter contract (0.1.5 draft)
+==============================================================
+
+Ownership
+---------
+An optional language package owns all language-specific extensions, syntax
+style, templates, autocomplete/training data, diagnostics/correction rules,
+compiler metadata, artifact rules, libraries, and documentation.  CodeDesk
+Core only loads, validates, and executes generic declarations.
+
+Required compiler JSON values
+-----------------------------
+formatVersion             Adapter schema version.
+id                        Compiler/adapter identifier.
+displayName               User-facing toolchain name.
+executableCandidates      Ordered executable names (no shell command text).
+versionArguments          Tokenized identity/version probe arguments.
+sourceExtensions          Source files collected from PINF source roots.
+defaultTarget             Target used when PINF does not select one.
+artifactType              Package-defined artifact classification.
+buildArguments            Tokenized compiler arguments.
+artifactCandidates        Ordered paths checked after a successful build.
+
+Optional values
+---------------
+libraryExtensions         Package-supported dependency file extensions.
+generatedFiles            Relative path -> UTF-8 template text.
+repeatedSourceTemplate    Text repeated for every source as ${sourceItems}.
+runArguments              Arguments passed to the tool when running artifact.
+diagnosticFormat          Package parser identifier (generic if absent).
+
+Supported placeholders
+----------------------
+${projectRoot}            Absolute working project folder.
+${artifactDirectory}      Project dist/<artifact-name> folder.
+${artifactName}           PINF artifact name.
+${executableSuffix}       .exe on Windows; blank on other desktop systems.
+${target}                 PINF target or package default target.
+${version}                Resolved project version.
+${mainFile}               Resolved PINF main file.
+${sources}                Special build-argument token expanded into one
+                          process argument per source file.
+${sourceItems}            repeatedSourceTemplate output.
+${source}                 Source path inside repeatedSourceTemplate.
+${sourceXml}              XML-escaped source path.
+${generatedProject}       Most recently generated file.
+${artifact}               Verified artifact, available to runArguments.
+
+Safety rules
+------------
+- Generated paths must be relative and remain below the project root.
+- Unknown placeholders fail the operation.
+- Arguments are never interpreted by a command shell.
+- Only enabled installed-package records are trusted as package ownership.
+- Registry packages describe integrations. External SDK/compiler downloads
+  will be separate, explicitly managed toolchain packages in a later pass.
