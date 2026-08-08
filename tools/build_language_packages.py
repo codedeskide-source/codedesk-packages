@@ -29,6 +29,7 @@ PAYLOAD_FOLDERS = (
     "diagnostics",
     "build",
     "project-templates",
+    "migration",
 )
 
 

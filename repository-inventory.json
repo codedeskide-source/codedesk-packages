@@ -152,9 +152,14 @@
       "sha256": "e981b82efb1580b04e737bd15f28d871c3644e61efcb07a2766c789404e6c817"
     },
     {
+      "path": "packages/languages/c/migration/project-migration.json",
+      "sizeBytes": 253,
+      "sha256": "e8a29fac3e3fafffcf2bc30b071adb7ff9847f373d4c634e1c8932720ec32525"
+    },
+    {
       "path": "packages/languages/c/package.json",
       "sizeBytes": 1547,
-      "sha256": "262508b4e32001fbb3652184d31c8fd175d4094f5f105a2a0fda6ee03f29abb6"
+      "sha256": "b2f6cdc99dbd0ad2d483abf771d9d4d10b8fc55419d129c43c3bad2f52d8160d"
     },
     {
       "path": "packages/languages/c/templates/Header.h",
@@ -178,13 +183,13 @@
     },
     {
       "path": "packages/languages/c/versions/1.1.0/codedesk-language-c-1.1.0.zip",
-      "sizeBytes": 3541,
-      "sha256": "70596984dd6af233ab7592a493d84e890336ad9a1b1ce9147196263d47839418"
+      "sizeBytes": 3866,
+      "sha256": "bb71541f8ce9b745d389825e3f791e3ae5da0f205b3517e747c6228d6e83ce6e"
     },
     {
       "path": "packages/languages/c/versions/1.1.0/package.json",
       "sizeBytes": 1547,
-      "sha256": "262508b4e32001fbb3652184d31c8fd175d4094f5f105a2a0fda6ee03f29abb6"
+      "sha256": "b2f6cdc99dbd0ad2d483abf771d9d4d10b8fc55419d129c43c3bad2f52d8160d"
     },
     {
       "path": "packages/languages/cpp/README.md",
@@ -227,9 +232,14 @@
       "sha256": "fb9c4a2e57937fce5a7ef553bd05cead8f7c696e601c03d34ead82afdb799368"
     },
     {
+      "path": "packages/languages/cpp/migration/project-migration.json",
+      "sizeBytes": 269,
+      "sha256": "83d317c13737dd1bda2a088623e44bc431e4168fed6c106d1aebffbf76d26624"
+    },
+    {
       "path": "packages/languages/cpp/package.json",
       "sizeBytes": 1565,
-      "sha256": "b2587d0cb99b2c7f1e9f05471004da3476e2842377c5c54ddcb9a8d206380253"
+      "sha256": "c25f7cce8824e75b3b35aaf0eda16cdce27a2067b5403a2627d0c79e9f98f879"
     },
     {
       "path": "packages/languages/cpp/templates/Class.hpp",
@@ -253,13 +263,13 @@
     },
     {
       "path": "packages/languages/cpp/versions/1.1.0/codedesk-language-cpp-1.1.0.zip",
-      "sizeBytes": 3621,
-      "sha256": "7b638058de97c40652a2e81efe471be7d0e3dcae5c24288dfb68a1d847aa708f"
+      "sizeBytes": 3958,
+      "sha256": "e4fed662d6560f0351ef79801a6da68c59e63773c860830c9e5669086b6cf811"
     },
     {
       "path": "packages/languages/cpp/versions/1.1.0/package.json",
       "sizeBytes": 1565,
-      "sha256": "b2587d0cb99b2c7f1e9f05471004da3476e2842377c5c54ddcb9a8d206380253"
+      "sha256": "c25f7cce8824e75b3b35aaf0eda16cdce27a2067b5403a2627d0c79e9f98f879"
     },
     {
       "path": "packages/languages/csharp/README.md",
@@ -302,9 +312,14 @@
       "sha256": "4566f655eb4569f5c25c37eedbb8e5a4fd2d2f3875bab7b56bfe01ce51feaaa0"
     },
     {
+      "path": "packages/languages/csharp/migration/project-migration.json",
+      "sizeBytes": 289,
+      "sha256": "594263f3a09140b3d847dd47eaa368eaa689319971c1f8800fcfc04b6dff114b"
+    },
+    {
       "path": "packages/languages/csharp/package.json",
       "sizeBytes": 1598,
-      "sha256": "8a2cba1ab8c53ba059ef31697fd4c378f1397d35ad5edee307e71e2aaa251b1c"
+      "sha256": "864ddbeeee9f45b81a0a0bbca4d9d381a1cae1acc03c6018d349b31cb8d32378"
     },
     {
       "path": "packages/languages/csharp/project-templates/console.json",
@@ -353,13 +368,13 @@
     },
     {
       "path": "packages/languages/csharp/versions/1.2.0/codedesk-language-csharp-1.2.0.zip",
-      "sizeBytes": 5513,
-      "sha256": "f053254c432617ed6611255c84e5ae2e270be51a5ba954aba388aaf78ee9fb1d"
+      "sizeBytes": 5863,
+      "sha256": "0d119bf25c0f2eef29bf1038162d967a12d10a461cc9d7152ee1914234da712a"
     },
     {
       "path": "packages/languages/csharp/versions/1.2.0/package.json",
       "sizeBytes": 1598,
-      "sha256": "8a2cba1ab8c53ba059ef31697fd4c378f1397d35ad5edee307e71e2aaa251b1c"
+      "sha256": "864ddbeeee9f45b81a0a0bbca4d9d381a1cae1acc03c6018d349b31cb8d32378"
     },
     {
       "path": "packages/languages/css/README.md",
@@ -808,8 +823,8 @@
     },
     {
       "path": "tools/build_language_packages.py",
-      "sizeBytes": 4949,
-      "sha256": "822477fdca0515a3e1f4b63410c7ce2fe4571631380f950ccf8fd211c55de468"
+      "sizeBytes": 4966,
+      "sha256": "bca011dd51d09ab85924366ac04a64073bab1e6a62e8fe4695490a211c854c53"
     },
     {
       "path": "tools/validate_repository.py",
