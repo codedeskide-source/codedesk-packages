@@ -25,8 +25,8 @@
   "download": {
     "url": "https://raw.githubusercontent.com/codedeskide-source/codedesk-packages/main/packages/languages/c/versions/1.1.0/codedesk-language-c-1.1.0.zip",
     "fileName": "codedesk-language-c-1.1.0.zip",
-    "sizeBytes": 3541,
-    "sha256": "70596984dd6af233ab7592a493d84e890336ad9a1b1ce9147196263d47839418",
+    "sizeBytes": 3866,
+    "sha256": "bb71541f8ce9b745d389825e3f791e3ae5da0f205b3517e747c6228d6e83ce6e",
     "timeoutSeconds": 300
   },
   "installation": {

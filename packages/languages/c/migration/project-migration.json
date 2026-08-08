@@ -1,0 +1,11 @@
+{
+  "formatVersion": 1,
+  "languageId": "c",
+  "aliases": ["c-language"],
+  "sourceExtensions": [".c"],
+  "compiler": "gcc",
+  "mainFile": "src/main.c",
+  "artifactType": "native-executable",
+  "target": "c17",
+  "supportedOperatingSystems": ["host"]
+}
