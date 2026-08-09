@@ -4,6 +4,13 @@
   "displayName": "GNU C Compiler / Clang C",
   "executableCandidates": ["gcc", "gcc.exe", "clang", "clang.exe"],
   "versionArguments": ["--version"],
+  "discoveryEnvironmentVariables": ["CC", "LLVM_HOME", "MINGW_HOME", "MSYS2_ROOT"],
+  "discoveryRelativeExecutablePaths": ["bin/gcc", "bin/gcc.exe", "bin/clang", "bin/clang.exe"],
+  "discoverySearchRoots": {
+    "windows": ["%ProgramFiles%/LLVM", "%ProgramFiles(x86)%/LLVM", "%ProgramData%/chocolatey/bin", "%USERPROFILE%/scoop/apps", "C:/msys64", "C:/MinGW", "C:/mingw64"],
+    "linux": ["/usr", "/usr/local", "/opt"],
+    "macos": ["/usr/local", "/opt/homebrew", "/opt/local", "/Library/Developer/CommandLineTools/usr"]
+  },
   "sourceExtensions": [".c"],
   "headerExtensions": [".h"],
   "libraryExtensions": [".a", ".so", ".dylib", ".lib"],

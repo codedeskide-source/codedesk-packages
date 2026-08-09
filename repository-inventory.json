@@ -29,7 +29,7 @@
     {
       "path": "catalog.json",
       "sizeBytes": 7842,
-      "sha256": "5d9962fa711c9ec83cd37ba51a64efd516096f5c63e4832289d3f57276e13dbb"
+      "sha256": "f001bac7093cb726e809733f0a14c02803736a229970e6537b51e5fecf1c93a1"
     },
     {
       "path": "licenses/codedesk-package-license-1.0.txt",
@@ -123,8 +123,8 @@
     },
     {
       "path": "packages/languages/c/compiler/gcc.json",
-      "sizeBytes": 737,
-      "sha256": "98d3417b7535d6929be4a7d036680a3547eb4b9a35aad2453caadcbbea1610a7"
+      "sizeBytes": 1264,
+      "sha256": "1e92aa3453e96af55b17ca4f49299dc3c299adbc30c70244c1ac30dfd257082e"
     },
     {
       "path": "packages/languages/c/corrections/rules.json",
@@ -159,7 +159,7 @@
     {
       "path": "packages/languages/c/package.json",
       "sizeBytes": 1547,
-      "sha256": "b2f6cdc99dbd0ad2d483abf771d9d4d10b8fc55419d129c43c3bad2f52d8160d"
+      "sha256": "578ac014f74319813218cc52e6023e522e8c8c98138fe8da6e29e56f3c93b0c6"
     },
     {
       "path": "packages/languages/c/templates/Header.h",
@@ -192,6 +192,16 @@
       "sha256": "b2f6cdc99dbd0ad2d483abf771d9d4d10b8fc55419d129c43c3bad2f52d8160d"
     },
     {
+      "path": "packages/languages/c/versions/1.2.0/codedesk-language-c-1.2.0.zip",
+      "sizeBytes": 4124,
+      "sha256": "2165e19995c788502655d14a1f5b6a67ed1c4da1bb5666b2fe91ff86cb973c31"
+    },
+    {
+      "path": "packages/languages/c/versions/1.2.0/package.json",
+      "sizeBytes": 1547,
+      "sha256": "578ac014f74319813218cc52e6023e522e8c8c98138fe8da6e29e56f3c93b0c6"
+    },
+    {
       "path": "packages/languages/cpp/README.md",
       "sizeBytes": 100,
       "sha256": "3982bbc9978b50fad8436c81a1bfd1692f0f2c418e6b3038fc7a0754dc1b2a6d"
@@ -203,8 +213,8 @@
     },
     {
       "path": "packages/languages/cpp/compiler/gpp.json",
-      "sizeBytes": 770,
-      "sha256": "96be1883d47ba04e607876802917516de6481f9a4b28f20455beaae58ff322e2"
+      "sizeBytes": 1302,
+      "sha256": "d049e3ea87f6530238697b74f325b090d4dc0f5ea9285453eaf42d9d960a0631"
     },
     {
       "path": "packages/languages/cpp/corrections/rules.json",
@@ -239,7 +249,7 @@
     {
       "path": "packages/languages/cpp/package.json",
       "sizeBytes": 1565,
-      "sha256": "c25f7cce8824e75b3b35aaf0eda16cdce27a2067b5403a2627d0c79e9f98f879"
+      "sha256": "bbc190d9a157d4bd5a3976697c8236c337d58bb6af2886200a2eff2b4502b271"
     },
     {
       "path": "packages/languages/cpp/templates/Class.hpp",
@@ -272,6 +282,16 @@
       "sha256": "c25f7cce8824e75b3b35aaf0eda16cdce27a2067b5403a2627d0c79e9f98f879"
     },
     {
+      "path": "packages/languages/cpp/versions/1.2.0/codedesk-language-cpp-1.2.0.zip",
+      "sizeBytes": 4218,
+      "sha256": "8620f38dfe1d189c389bc1ebb2686b0d5d55337012ba0d7d60b48c6a7683fb11"
+    },
+    {
+      "path": "packages/languages/cpp/versions/1.2.0/package.json",
+      "sizeBytes": 1565,
+      "sha256": "bbc190d9a157d4bd5a3976697c8236c337d58bb6af2886200a2eff2b4502b271"
+    },
+    {
       "path": "packages/languages/csharp/README.md",
       "sizeBytes": 238,
       "sha256": "28e7a815bade38cb6d64f73d443f8353dee5dcedd947fd624a70e0143e0c2a5b"
@@ -283,8 +303,8 @@
     },
     {
       "path": "packages/languages/csharp/compiler/dotnet.json",
-      "sizeBytes": 1813,
-      "sha256": "eec2ca9820521fe459a62fecbbfa45b74d418203e1e2ef891255358fb1e92c8f"
+      "sizeBytes": 2314,
+      "sha256": "bcb006454c656efdafd5b7c47035fdc122acbb1d3525e5db7ea268342ce97ef2"
     },
     {
       "path": "packages/languages/csharp/corrections/rules.json",
@@ -319,7 +339,7 @@
     {
       "path": "packages/languages/csharp/package.json",
       "sizeBytes": 1598,
-      "sha256": "864ddbeeee9f45b81a0a0bbca4d9d381a1cae1acc03c6018d349b31cb8d32378"
+      "sha256": "378d910bf422b82baa6abb6d0480071acb5e545027fb1ef08ca5aabc4b52d0cf"
     },
     {
       "path": "packages/languages/csharp/project-templates/console.json",
@@ -375,6 +395,16 @@
       "path": "packages/languages/csharp/versions/1.2.0/package.json",
       "sizeBytes": 1598,
       "sha256": "864ddbeeee9f45b81a0a0bbca4d9d381a1cae1acc03c6018d349b31cb8d32378"
+    },
+    {
+      "path": "packages/languages/csharp/versions/1.3.0/codedesk-language-csharp-1.3.0.zip",
+      "sizeBytes": 6044,
+      "sha256": "2009e63c1bea6b5a245753c9b4d97f5866370fedc20c4304b4f8914c1308c15b"
+    },
+    {
+      "path": "packages/languages/csharp/versions/1.3.0/package.json",
+      "sizeBytes": 1598,
+      "sha256": "378d910bf422b82baa6abb6d0480071acb5e545027fb1ef08ca5aabc4b52d0cf"
     },
     {
       "path": "packages/languages/css/README.md",
@@ -824,7 +854,7 @@
     {
       "path": "tools/build_language_packages.py",
       "sizeBytes": 4966,
-      "sha256": "bca011dd51d09ab85924366ac04a64073bab1e6a62e8fe4695490a211c854c53"
+      "sha256": "75ff106a40acac81679897539edd3ee0d613e0dff8f0e23555a7a7d684e4fb18"
     },
     {
       "path": "tools/validate_repository.py",

@@ -4,6 +4,13 @@
   "displayName": "GNU C++ Compiler / Clang++",
   "executableCandidates": ["g++", "g++.exe", "clang++", "clang++.exe"],
   "versionArguments": ["--version"],
+  "discoveryEnvironmentVariables": ["CXX", "LLVM_HOME", "MINGW_HOME", "MSYS2_ROOT"],
+  "discoveryRelativeExecutablePaths": ["bin/g++", "bin/g++.exe", "bin/clang++", "bin/clang++.exe"],
+  "discoverySearchRoots": {
+    "windows": ["%ProgramFiles%/LLVM", "%ProgramFiles(x86)%/LLVM", "%ProgramData%/chocolatey/bin", "%USERPROFILE%/scoop/apps", "C:/msys64", "C:/MinGW", "C:/mingw64"],
+    "linux": ["/usr", "/usr/local", "/opt"],
+    "macos": ["/usr/local", "/opt/homebrew", "/opt/local", "/Library/Developer/CommandLineTools/usr"]
+  },
   "sourceExtensions": [".cpp", ".cc", ".cxx"],
   "headerExtensions": [".hpp", ".h"],
   "libraryExtensions": [".a", ".so", ".dylib", ".lib"],
